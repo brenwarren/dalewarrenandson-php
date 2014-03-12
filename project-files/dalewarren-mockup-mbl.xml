@@ -1,0 +1,215 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="964" measuredH="3913" mockupW="904" mockupH="3880">
+  <controls>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::Button" x="155" y="245" w="378" h="80" measuredW="61" measuredH="27" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::Button" x="155" y="325" w="378" h="77" measuredW="61" measuredH="27" zOrder="3" locked="false" isInGroup="-1"/>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::Image" x="161" y="325" w="366" h="62" measuredW="77" measuredH="79" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Heating</text>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Button" x="155" y="402" w="378" h="72" measuredW="61" measuredH="27" zOrder="5" locked="false" isInGroup="-1"/>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::Image" x="161" y="413" w="366" h="48" measuredW="77" measuredH="79" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Plumbing</text>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::Label" x="141" y="129" w="304" h="-1" measuredW="308" measuredH="36" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>3700253</color>
+        <size>28</size>
+        <text>Dale%20Warren%20%26%20Son%20LTD</text>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::StickyNote" x="579" y="351" w="109" h="123" measuredW="109" measuredH="123" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Blurrred%20image%20behind%20Services%20text%20on%20buttons</text>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::LinkBar" x="70" y="110" w="-1" h="-1" measuredW="223" measuredH="19" zOrder="9" locked="false" isInGroup="-1"/>
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::Image" x="161" y="254" w="366" h="62" measuredW="77" measuredH="79" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Wood%20Burners</text>
+      </controlProperties>
+    </control>
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="60" y="33" w="487" h="3880" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1"/>
+    <control controlID="61" controlTypeID="com.balsamiq.mockups::ModalScreen" x="60" y="101" w="490" h="64" measuredW="320" measuredH="240" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="62" controlTypeID="com.balsamiq.mockups::Tooltip" x="519" y="144" w="177" h="33" measuredW="177" measuredH="0" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Fixed%20menu%20/%20title%20bar</text>
+      </controlProperties>
+    </control>
+    <control controlID="63" controlTypeID="com.balsamiq.mockups::Tooltip" x="483" y="282" w="481" h="49" measuredW="482" measuredH="0" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Big%20buttons%20span%20page%20width.%20Press%20to%20select%20service%20you%27re%20interested%20in.%0APage%20then%20scrolls%20down%20automatically%20to%20section%20on%20selected%20service.</text>
+      </controlProperties>
+    </control>
+    <control controlID="65" controlTypeID="com.balsamiq.mockups::Label" x="135" y="2107" w="324" h="-1" measuredW="252" measuredH="28" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Safety%20%26%20Quality%20Standards</text>
+      </controlProperties>
+    </control>
+    <control controlID="68" controlTypeID="com.balsamiq.mockups::TextArea" x="77" y="2252" w="450" h="375" measuredW="200" measuredH="140" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>We%20are%20authorized%20service%20providers%20for%20the%20following%20well%20known%20industrial%20standards%20bodies%3A%0AIndustry%20standards%0AOFTEC%0Aoftec.org%0AOFTEC%20establishes%20the%20standards%20for%20competence%20within%20the%20domestic%20oil%20heating%20and%20cooking%20industry.%0ABy%20ensuring%20the%20quality%20of%20people%20and%20businesses%20working%20in%20this%20area%20OFTEC%20maintains%20standards%20for%20reputable%20companies%20and%20consumers%20alike.%0A%20%0AGas%20Safe%0Agassaferegister.co.uk%0AGas%20Safe%20is%20the%20official%20list%20of%20gas%20engineers%20who%20are%20registered%20to%20work%20safely%0Aand%20legally%20on%20boilers%2C%20cookers%2C%20fires%20and%20all%20other%20gas%20appliances.%0A%20%0AHETAS%0Ahetas.co.uk%0AHETAS%20are%20the%20official%20body%20recognised%20by%20Government%20to%20approve%20biomass%20and%20solid%20fuel%20domestic%20heating%20appliances%2C%20fuels%20and%20services%20including%20the%20registration%20of%20competent%20installers%20and%20servicing%20businesses.</text>
+      </controlProperties>
+    </control>
+    <control controlID="69" controlTypeID="com.balsamiq.mockups::Image" x="77" y="2150" w="450" h="95" measuredW="77" measuredH="79" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>logo%20images%20for%20oftec%20/%20Hetas%20etc...</text>
+      </controlProperties>
+    </control>
+    <control controlID="73" controlTypeID="com.balsamiq.mockups::Label" x="116" y="2955" w="132" h="-1" measuredW="105" measuredH="28" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Contact%20Us</text>
+      </controlProperties>
+    </control>
+    <control controlID="74" controlTypeID="com.balsamiq.mockups::Map" x="74" y="625" w="323" h="104" measuredW="252" measuredH="222" zOrder="17" locked="false" isInGroup="-1"/>
+    <control controlID="75" controlTypeID="com.balsamiq.mockups::TextArea" x="74" y="533" w="459" h="77" measuredW="200" measuredH="140" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Our%20normal%20service%20area%20extends%20to%3A%0ALlanindloes%2C%20Welshpool%2C%20Montgomery%2C%20Llanfair%20Caereinion%2C%20Shrewsbury%20and%20surrounding%20areas.%0AWe%20can%20also%20reach%20out%20to%20cover%20most%20of%20the%20rest%20of%20Powys%20and%20Mid%20Wales.</text>
+      </controlProperties>
+    </control>
+    <control controlID="76" controlTypeID="com.balsamiq.mockups::SubTitle" x="106" y="499" w="205" h="-1" measuredW="193" measuredH="27" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Our%20Service%20Area</text>
+      </controlProperties>
+    </control>
+    <control controlID="81" controlTypeID="com.balsamiq.mockups::Icon" x="77" y="253" w="-1" h="-1" measuredW="64" measuredH="64" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>GearIcon%7Cxlarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="84" controlTypeID="com.balsamiq.mockups::Icon" x="74" y="331" w="-1" h="-1" measuredW="64" measuredH="64" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>GearIcon%7Cxlarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="85" controlTypeID="com.balsamiq.mockups::Icon" x="74" y="406" w="-1" h="-1" measuredW="64" measuredH="64" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>GearIcon%7Cxlarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="86" controlTypeID="com.balsamiq.mockups::Tooltip" x="127" y="261" w="177" h="49" measuredW="181" measuredH="0" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Different%20service%20icons</text>
+        <tooltipDirection>SW</tooltipDirection>
+      </controlProperties>
+    </control>
+    <control controlID="92" controlTypeID="com.balsamiq.mockups::Image" x="84" y="2709" w="144" h="94" measuredW="77" measuredH="79" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>image%20of%20van</text>
+      </controlProperties>
+    </control>
+    <control controlID="93" controlTypeID="com.balsamiq.mockups::Label" x="116" y="2673" w="275" h="-1" measuredW="273" measuredH="28" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>About%20Dale%20Warren%20%26%20Son%20LTD</text>
+      </controlProperties>
+    </control>
+    <control controlID="100" controlTypeID="com.balsamiq.mockups::TextArea" x="79" y="2999" w="449" h="433" measuredW="200" measuredH="140" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>For%20all%20inquiries%20call%20on%20one%20of%20our%20contact%20numbers%20below%3A%0A%20%0A07931%20875436%0A07980%20840041%0A01686%20688600%0A%20%0AOr%20email%20us%3A%0A%20%0AClick%20here%20to%20send%20an%20email%0A%20%0AIf%20the%20link%20does%20not%20work%20on%20your%20computer%20please%20send%20an%20email%20manually%20using%20your%20normal%20email%0Aemail%20application%20to%20info@dalewarrenandson.com%0A%20%0APlease%20include%20your%20Name%20and%20Phone%20Number%20if%20you%20would%20like%20a%20call%20back.%0A%20%0ALocation%3A%0A%20%0AWe%20are%20based%20in%20Newtown%20in%20Powys%2C%20Mid%20Wales.%0A%20%0AOur%20normal%20service%20area%20extends%20to%3A%0ALlanindloes%2C%20Welshpool%2C%20Montgomery%2C%20Llanfair%20Caereinion%2C%20Shrewsbury%20and%20surrounding%20areas.%0A%20%0AWe%20can%20also%20reach%20out%20to%20cover%20most%20of%20the%20rest%20of%20Powys%20county%20and%20Mid%20Wales.</text>
+      </controlProperties>
+    </control>
+    <control controlID="101" controlTypeID="com.balsamiq.mockups::Map" x="79" y="3443" w="364" h="284" measuredW="252" measuredH="222" zOrder="27" locked="false" isInGroup="-1"/>
+    <control controlID="102" controlTypeID="com.balsamiq.mockups::Icon" x="79" y="2953" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>TelephoneIcon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="103" controlTypeID="com.balsamiq.mockups::Icon" x="79" y="2668" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>InfoIcon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="104" controlTypeID="com.balsamiq.mockups::Icon" x="97" y="2107" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>CheckMarkIcon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="105" controlTypeID="com.balsamiq.mockups::Icon" x="74" y="500" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>FullScreenIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="110" controlTypeID="com.balsamiq.mockups::ModalScreen" x="72" y="837" w="459" h="303" measuredW="320" measuredH="240" zOrder="32" locked="false" isInGroup="-1"/>
+    <control controlID="111" controlTypeID="com.balsamiq.mockups::Label" x="113" y="800" w="127" h="-1" measuredW="127" measuredH="28" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Wood%20Burners</text>
+      </controlProperties>
+    </control>
+    <control controlID="112" controlTypeID="com.balsamiq.mockups::Image" x="80" y="853" w="444" h="96" measuredW="77" measuredH="79" zOrder="34" locked="false" isInGroup="-1"/>
+    <control controlID="113" controlTypeID="com.balsamiq.mockups::List" x="80" y="956" w="439" h="126" measuredW="100" measuredH="126" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Fires%0ABurners%0ACombined....</text>
+      </controlProperties>
+    </control>
+    <control controlID="114" controlTypeID="com.balsamiq.mockups::ModalScreen" x="72" y="1190" w="460" h="387" measuredW="320" measuredH="240" zOrder="36" locked="false" isInGroup="-1"/>
+    <control controlID="115" controlTypeID="com.balsamiq.mockups::Image" x="80" y="1210" w="445" h="123" measuredW="77" measuredH="79" zOrder="37" locked="false" isInGroup="-1"/>
+    <control controlID="116" controlTypeID="com.balsamiq.mockups::List" x="80" y="1342" w="439" h="161" measuredW="100" measuredH="126" zOrder="38" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Fires%0ABurners%0ACombined....</text>
+      </controlProperties>
+    </control>
+    <control controlID="117" controlTypeID="com.balsamiq.mockups::ModalScreen" x="72" y="1656" w="460" h="387" measuredW="320" measuredH="240" zOrder="39" locked="false" isInGroup="-1"/>
+    <control controlID="118" controlTypeID="com.balsamiq.mockups::Image" x="80" y="1676" w="445" h="123" measuredW="77" measuredH="79" zOrder="40" locked="false" isInGroup="-1"/>
+    <control controlID="119" controlTypeID="com.balsamiq.mockups::List" x="80" y="1808" w="447" h="161" measuredW="100" measuredH="126" zOrder="41" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Fires%0ABurners%0ACombined....</text>
+      </controlProperties>
+    </control>
+    <control controlID="120" controlTypeID="com.balsamiq.mockups::Label" x="113" y="1155" w="86" h="-1" measuredW="71" measuredH="28" zOrder="42" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Heating</text>
+      </controlProperties>
+    </control>
+    <control controlID="121" controlTypeID="com.balsamiq.mockups::Label" x="113" y="1607" w="86" h="-1" measuredW="84" measuredH="28" zOrder="43" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Plumbing</text>
+      </controlProperties>
+    </control>
+    <control controlID="122" controlTypeID="com.balsamiq.mockups::Title" x="72" y="752" w="183" h="-1" measuredW="163" measuredH="43" zOrder="44" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Services</text>
+      </controlProperties>
+    </control>
+    <control controlID="123" controlTypeID="com.balsamiq.mockups::Icon" x="72" y="799" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="45" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>GearIcon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="124" controlTypeID="com.balsamiq.mockups::Icon" x="72" y="1153" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="46" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>GearIcon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="125" controlTypeID="com.balsamiq.mockups::Icon" x="70" y="1605" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="47" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>GearIcon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="126" controlTypeID="com.balsamiq.mockups::Paragraph" x="141" y="168" w="327" h="59" measuredW="200" measuredH="80" zOrder="48" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Registered%20plumbers%20and%20heating%20installers%0AWOOD%20-%20GAS%20-%20OIL%20-%20BURNERS%20-%20FIRES%0A%20%20%20%20%20%20%20%20%20%20%20Installation%20%26%20Modifications</text>
+      </controlProperties>
+    </control>
+    <control controlID="127" controlTypeID="com.balsamiq.mockups::TextArea" x="84" y="2809" w="446" h="121" measuredW="200" measuredH="140" zOrder="49" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Dale%20Warren%20Plumbing%20was%20established%20just%20over%2025%20years%20ago%20by%20Dale%20when%20his%20son%2C%20Graham%2C%20was%20only%2010%20years%20old.%20Twenty%20five%20years%20later%20and%20with%20many%20years%20experience%20and%20qualification%2C%20Graham%20became%20the%20%u201Cand%20Son%u201D%20part%20of%20the%20business.%20The%20well%20known%20honesty%20and%20quality%20of%20work%20which%20ensured%20that%20Dale%u2019s%20customers%20never%20used%20other%20plumbers%20again%2C%20is%20still%20the%20same%20today%20in%20its%20new%20and%20bigger%20form%20%u2013%20Dale%20Warren%20and%20Son%20Ltd.</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

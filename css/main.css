@@ -1,0 +1,441 @@
+
+
+/* ==========================================================================
+   Brens custom styles
+   ========================================================================== */
+
+
+body {
+  background-color: #e8e8e8;
+}
+
+
+.header-text {
+
+	/*color: #669900; */
+  font-size: 3em;
+  color: #A3C737;
+	text-align: center; 
+  
+
+}
+
+h1.tagline {
+  font-size: 1em; 
+  font-weight: 200; 
+  color: #FFB46C;
+}
+
+h2.tagline {
+   font-size: 1.3em; 
+  font-weight: 200; 
+  color: #7f8c8d;
+}
+
+.tagline-box {
+  background-color: rgba(44, 62, 80,0.95);
+	 font-size: 1em;
+  color: #ecf0f1;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  margin-left: 200px; 
+	
+}
+
+.bren-bg-color-1 {
+  background-color: rgba(44, 62, 80,0.95);
+}
+
+.glyphicon-lg {
+	font-size: 2.4em;
+  #34495e
+}
+
+.header-bg-img {
+	background-image: url("../inc/img/fireplace-a-in-empty-room-m.jpg");
+	min-height: 500px;
+	background-size: cover;
+  padding-top: 1px;
+}
+
+.header-bg-img-xs{
+  background-image: url("../inc/img/fireplace-a-in-empty-room-m.jpg");
+  min-height: 300px;
+  background-size: cover;
+}
+
+.opaque-box-header  /* used for small displays only since blur background for
+other displays requires Fixed property which interferes with small display nav menu */
+  {
+  background-color:#95A5A6;
+  opacity:0.8;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+  text-align: end;
+  border-radius:5px;
+  }
+
+
+/* background blur not used now.. it was not effective enough 
+
+.blur-container > p {
+  background-image: url("../inc/img/fireplace-a-in-empty-room-m.jpg");
+  left: 0;
+  right: 0;
+  width: 95%;
+  min-height: 140px;
+
+  -webkit-filter: blur(12px);
+  -moz-filter: blur(12px);
+  -o-filter: blur(12px);
+  -ms-filter: blur(12px);
+  filter: blur(12px);
+
+
+}
+
+.content {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  margin-left: 20px;
+  margin-right: 20px;
+
+*/
+
+.contact-btn {
+  
+  margin-top: 10px;
+}
+
+.contact-btn:hover {
+  font-weight: 500;
+}
+
+.btn-lg {
+  box-shadow: 3px 3px 5px #7f8c8d;
+}
+
+.woodburner-bg-color {
+  background-color: #FFB46C;
+
+  #F2784B;
+}
+
+.heating-bg-color {
+  background-color: #5FC073;
+
+  #66CC99;
+}
+
+.plumbing-bg-color {
+  background-color: #C2B49A;
+
+  #ADEBFC;
+}
+
+.left-container {
+  height: inherit;
+  width: 170px;
+  float: left;
+  padding: 30px 10px;
+  text-align: center;
+  color: #fff;
+
+
+ -webkit-border-radius: 5px 0 0 5px;
+-moz-border-radius: 5px 0 0 5px;
+-ms-border-radius: 5px 0 0 5px;
+-o-border-radius: 5px 0 0 5px;
+border-radius: 5px 0 0 5px;
+
+box-shadow: 3px 3px 5px #7f8c8d;
+
+}
+
+
+.left-container-services {
+  height: 400px;
+  width: 170px;
+  float: left;
+  padding: 30px 10px;
+  text-align: center;
+  color: #fff;
+
+  margin-top: -2px;
+
+
+ -webkit-border-radius: 5px 0 0 5px;
+-moz-border-radius: 5px 0 0 5px;
+-ms-border-radius: 5px 0 0 5px;
+-o-border-radius: 5px 0 0 5px;
+border-radius: 5px 0 0 5px;
+
+box-shadow: 4px 4px 5px #7f8c8d;
+
+}
+
+
+
+.right-container {
+  height: inherit;
+  background-color: #fff;
+  margin-left: 5px;
+  overflow: auto;
+  padding: 10px;
+  margin-top: 2px;
+}
+
+.right-container-services {
+
+  overflow: auto;
+
+}
+
+/*CHANGES FOR ALL SCREENS EXCEPT EXTRA SMALL SCREENS */
+@media (min-width: 768px) {
+
+    /* ADDS ROUNDED CORNERS TO RIGHT HAND SIDE OF MAIN BOXES*/
+    .right-container, .right-container-services {
+      -webkit-border-radius: 0px 5px 5px 0px;
+      -moz-border-radius: 0 5px 5px 0;
+      -ms-border-radius: 0 5px 5px 0;
+      -o-border-radius: 0 5px 5px 0;
+      border-radius: 0 5px 5px 0;
+    }
+
+    .right-container-services {
+      padding-right: 80px;
+      padding-top: 10px;
+       height: 400px;
+       margin-top: 10px;
+       margin-bottom: 20px;
+
+    }
+
+
+    .service-info-box {
+      height: 400px;
+
+    }
+
+    .services-text-box {  
+
+      background-color: rgba(236, 240, 241,0.9);
+      -webkit-border-radius: 0 5px 5px 0;
+      -moz-border-radius: 0 5px 5px 0;
+      -ms-border-radius: 0 5px 5px 0;
+      -o-border-radius: 0 5px 5px 0;
+      border-radius: 0 5px 5px 0;
+    }
+
+    
+
+    /* ADDS BODY PADDING LEFT AND RIGHT FOR BIGGER SCREENS*/
+    body {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+}
+
+/*CHANGES FOR ALL EXTRA SMALL SCREENS */
+
+@media (max-width: 767px) {
+
+      /* ADDS ROUNDED CORNERS TO ALL FOR CORNERS OF MAIN BOXES 
+    FOR EXTRA SMALL SCREENS BECAUSE THE LEFT HAND COLOURED BOX
+    IS REMOVED FOR EXTRA SMALL SCREENS TO GIVE MORE SPACE. THIS 
+    LEAVES SQUARED CORNERS ON THE LEFT EDGE OF THE BOX. 
+    SO CSS EVENS THE LOOK AND ADDS ROUNDED CORNERS TO THAT LEFT EDGE.*/
+    .right-container {
+      -webkit-border-radius: 5px 5px 5px 5px;
+      -moz-border-radius: 5px 5px 5px 5px;
+      -ms-border-radius: 5px 5px 5px 5px;
+      -o-border-radius: 5px 5px 5px 5px;
+      border-radius: 5px 5px 5px 5px;
+    }
+
+     .left-container {
+    display: none !important;
+    }
+
+    .right-container {
+   
+    margin-left: 0px;
+    overflow: auto;
+    padding: 2px;
+    margin-top: 2px;
+    }
+
+    .left-container-services {
+    display: none !important;
+    }
+
+    .right-container-services {
+      padding-right: 0px;
+      padding-top: 0px;
+      overflow: auto;
+    }
+
+
+    .tagline-box {
+      font-size: 0.8em;
+      margin-left: 0px;
+
+    }
+
+    .services-text-box {
+      margin-top: 0px;
+      background-color: rgba(236, 240, 241,0.9);
+    }
+
+     .box-header-xs {
+      padding: 10px; 
+      margin-top: 0px;
+      margin-bottom: 5px;
+    }
+
+    .service-box-header-xs {
+      padding: 10px; 
+      margin-top: 0px;
+      margin-bottom: 0px;
+      box-shadow: 3px 3px 5px #7f8c8d;
+    }
+    
+
+
+}
+
+
+.info-box-icon {
+  font-size: 4em;
+  margin-left: 23%;
+  color: #fff;
+  vertical-align: middle;
+  
+} 
+
+.service-container {
+  margin-left: 2px;
+  margin-right: 2px;
+
+
+}
+
+.service-area-left {
+  margin-left: 2px;
+}
+
+.btn-lg:hover {
+  font-weight: 500;
+}
+
+.btn-block:hover {
+  color: #fff;
+  font-weight: 500;
+
+}
+
+
+
+
+
+#map_canvas {
+        width: 500px;
+        height: 500px;
+      }
+
+
+
+.safety-bg-img{
+  background-image: url("../inc/img/oftec_hetas_gassafe_trans2.png");
+  min-height: 150px;
+  background-position: center;
+  opacity:0.7;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+
+}
+
+.woodburner-right-container{
+  
+  background-image: url('../inc/img/woodburner-and-logs.jpg');
+  background-size: cover;
+
+
+
+}
+
+.heating-right-container{
+  
+  background-image: url('../inc/img/solar-panels-on-roof.jpg');
+  background-size: cover;
+}
+
+
+.plumbing-right-container{
+  
+  background-image: url('../inc/img/industrial-boiler-room.jpg');
+  background-size: cover;
+}
+
+
+
+.services-text-box {
+
+   
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 60px;
+  font-size: 1.2em;
+ 
+
+}
+
+.btn-more-services {
+  background-color: #bdc3c7;
+  margin-left: 15px;
+  padding: 5px;
+ line-height: 180%;
+ color: inherit;
+ box-shadow: 2px 2px 3px #7f8c8d;
+  
+}
+
+.btn-bullet-1 {
+   
+  font-size: 2em; 
+  margin-right: 5px; 
+  float:left; 
+  vertical-align: middle;
+  
+}
+
+
+.btn-more-services:hover {
+  color: #fff;
+}
+
+.btn-bren-grey {
+  background-color: #bdc3c7;
+  padding: 5px;
+ line-height: 180%;
+ color: inherit;
+ box-shadow: 2px 2px 3px #7f8c8d;
+  
+}
+
+.btn-bren-darkgrey {
+  background-color: #7f8c8d;
+  padding: 5px;
+ line-height: 180%;
+ color: inherit;
+ box-shadow: 2px 2px 3px #7f8c8d;
+  
+}
+
+.avoid-menubar {
+  padding-top: 100px;
+  margin-top: -100px;
+}
+

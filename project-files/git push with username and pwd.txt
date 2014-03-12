@@ -1,0 +1,5 @@
+git push and push with username and pwd
+
+git push https://brenwarren:dasha100@github.com/brenwarren/dalewarrenandson.git
+
+git pull https://brenwarren:dasha100@github.com/brenwarren/dalewarrenandson.git
