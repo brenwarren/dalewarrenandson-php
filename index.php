@@ -34,35 +34,35 @@
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-   <header>    
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Dale Warren &amp; Son Ltd</a>
+     <header>  
+        <div class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">Dale Warren &amp; Son Ltd</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#woodburners">wood Burners</a></li>
+                        <li><a href="#heating">Heating</a></li>
+                        <li><a href="#plumbing">Plumbing</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                  </ul>
+                </div><!--/.navbar-collapse -->
+          </div>
         </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#woodburners">wood Burners</a></li>
-                <li><a href="#heating">Heating</a></li>
-                <li><a href="#plumbing">Plumbing</a></li>
-              </ul>
-            </li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div><!--/.navbar-collapse -->
-      </div>
-    </div>
-
+    </header>  
     <!--  START OF Main jumbotron header section -->
     
     <div class="jumbotron header-bg-img">
@@ -83,7 +83,6 @@
        
       </div>
     </div>
-   </header>  
 
         <!-- Service buttons -->
 

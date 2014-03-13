@@ -117,7 +117,7 @@ function vpb_refresh_aptcha()
 <div style="width:300px; float:left;" align="left">
 <div class="vpb_captcha_wrappers"><input type="text" id="vpb_captcha_code" name="vpb_captcha_code" style="border-bottom: solid 2px #cbcbcb;" class="vpb_input_fields"></div></div><br clear="all">
 <div style="width:100px; float:left;" align="left">&nbsp;</div>
-<div style="width:300px; float:left;" align="left"><div class="vpb_captcha_wrapper"><img src="vasplusCaptcha.php?rand=<?php echo rand(); ?>" id='captchaimg' ></div><br clear="all">
+<div style="width:300px; float:left;" align="left"><div class="vpb_captcha_wrapper"><img src="contact_form/vasplusCaptcha.php?rand=<?php echo rand(); ?>" id='captchaimg' ></div><br clear="all">
 <div style=" padding-top:5px;" align="left"><font style="font-family:Verdana, Geneva, sans-serif; font-size:11px;">Can't read the above security code? <span class="ccc"><a href="javascript:void(0);" onClick="vpb_refresh_aptcha();">Refresh</a></span></font></div>
 
 </div>
