@@ -22,7 +22,8 @@
       </style>
       <link rel="stylesheet" href="css/bootstrap-theme.css">
       <link rel="stylesheet" href="css/main.css">
-      <link href="contact_form/form_style.css" rel="stylesheet" type="text/css" />
+      <link href="css/form-style.css" rel="stylesheet" type="text/css" />
+
 
       <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
       <script src="js/vendor/bootstrap.min.js"></script>

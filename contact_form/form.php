@@ -1,101 +1,139 @@
-<?php 
+<?php
+session_start();
+ob_start();
+ini_set('error_reporting', 0);
 
-require_once('form_config.php');
-// Check to see if the form has been submitted
-if (isset($_POST['submit'])) { 
-
-
-require_once('recaptchalib.php');   
-$resp = recaptcha_check_answer ($privatekey, $_SERVER["REMOTE_ADDR"], $_POST["recaptcha_challenge_field"], $_POST["recaptcha_response_field"]);    
-
-// Assign the post variable and sanitize it  
-  	$name = (filter_var($_POST['name'], FILTER_SANITIZE_STRING)); 
-	if ($name == "") $errors .= 'Please enter a valid name.<br />';
-         
- // Sanitize the email address and check it is valid 
-  	$email = (filter_var($_POST['email'], FILTER_SANITIZE_EMAIL));
-  	if (!filter_var($email, FILTER_VALIDATE_EMAIL)) $errors .= "Please enter a correct email address.<br />";
-  
-// Sanitize the phone number if it exists
-	if ($_POST['phone'] != "") {
-	$phone = (filter_var($_POST['phone'], FILTER_SANITIZE_STRING));
-	}
-
-// Sanitize the company if it exists 
-	if ($_POST['company'] != "") { 
-  	$company = (filter_var($_POST['company'], FILTER_SANITIZE_STRING));
-	}
-  
-// Sanitize the URL if it exists
-	if ($_POST['website'] != "") {
-  		$website = (filter_var($_POST['website'], FILTER_SANITIZE_URL));
- 		 if (!filter_var($website, FILTER_VALIDATE_URL)) $errors .= "$website is not a valid URL.<br />";
-	}
-  
-// Sanitize the comments  
-	$comments = (filter_var($_POST['comments'], FILTER_SANITIZE_STRING));
-	if ($comments == "") $errors .= 'Please enter some comments.<br />';
-  
-// Check to see if any errors did occur
-	$validation_check="";
-	if(isset($errors)) $validation_check.= $errors;   
-	if (!$resp->is_valid) $validation_check.="The reCAPTCHA wasn't entered correctly.<br />";
-
-// If no errors then send the mail and create the success message
-	if (!$validation_check) {
-	$message = "Name: ".$name."\r\n"."Company: ".$company."\r\n"."Phone: ".$phone."\r\n"."Website: ".$website."\r\n\r\n"."Comments: ".$comments."\r\n";
-	mail( $my_email, "Subject: Enquiry from $my_website", $message, "From: $email" );
-	$validation_message = $success_message; 
-	} else {
-	$validation_message = $validation_check;}
+if(isset($_POST["submitted"]) && $_POST["submitted"] == 1)
+{
+    //Read POST request params into global vars
+    $to_email          = "info@vasplus.info"; // Replace this email field with your email address or your company email address
+    $from_fullname     = trim(strip_tags($_POST['fullname']));
+    $from_email        = trim(strip_tags($_POST['email']));
+    $email_subject     = 'TESTING CAPTCHA: '.trim(strip_tags($_POST['subject']));
+    $email_message     = nl2br(trim(strip_tags($_POST['message'])));
+    $security_code     = trim(strip_tags($_POST['vpb_captcha_code']));
+    
+    //Set up the email headers
+    $headers      = "From: $from_fullname <$from_email>\r\n";
+    $headers   .= "Content-type: text/html; charset=iso-8859-1\r\n";
+    $headers   .= "Message-ID: <".time().rand(1,1000)."@".$_SERVER['SERVER_NAME'].">". "\r\n";   
+    
+    if($from_fullname == "")
+    {
+        $submission_status = '<div class="vpb_info" align="left">Please enter your fullname in the required field to proceed. Thanks.</div>';
+    }
+    elseif($from_email == "")
+    {
+        $submission_status = '<div class="vpb_info" align="left">Please enter your email address in the required email field to proceed.</div>';
+    }
+    elseif(!preg_match("/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/", $from_email))
+    {
+        $submission_status = '<div class="vpb_info" align="left">Sorry, your email address is invalid. Please enter a valid email address to proceed. Thanks.</div>';
+    }
+    elseif($email_subject == "")
+    {
+        $submission_status = '<div class="vpb_info" align="left">Please enter the subject of your message in the required field to proceed.</div>';
+    }
+    elseif($email_message == "")
+    {
+        $submission_status = '<div class="vpb_info" align="left">Please enter your message in the required message field to proceed. Thanks.</div>';
+    }
+    elseif($security_code == "")
+    {
+        $submission_status = '<div class="vpb_info" align="left">Please enter the security code in its field to send us your message. Thanks.</div>';
+    }
+    elseif(!isset($_SESSION['vpb_captcha_code']))
+    {
+        $submission_status = '<div class="vpb_info" align="left">Sorry, the security code you provided was incorrect, try again.</div>';
+    }
+    else
+    {
+        if(empty($_SESSION['vpb_captcha_code']) || strcasecmp($_SESSION['vpb_captcha_code'], $_POST['vpb_captcha_code']) != 0)
+        {
+            //Note: the captcha code is compared case insensitively. If you want case sensitive match, update the check above to strcmp()
+            $submission_status = '<div class="vpb_info" align="left">Sorry, the security code you provided was incorrect, try again.</div>';
+        }
+        else
+        {
+            $vasplus_mailer_delivers_greatly = @mail($to_email, $email_subject, $email_message, $headers);
+                    
+            if ($vasplus_mailer_delivers_greatly) 
+             {
+                //Displays the success message when email message is sent
+                  $submission_status = "<div align='left' class='vpb_success'>Congrats $from_fullname, your email message has been sent successfully!<br>We will get back to you as soon as possible. Thanks.</div>";
+             } 
+             else 
+             {
+                 //Displays an error message when email sending fails
+                  $submission_status = "<div align='left' class='vpb_info'>Sorry, your email could not be sent at the moment. <br>Please try again or contact this website admin to report this error message if the problem persist. Thanks.</div>";
+             }
+        }
+    }
 }
 ?>
-<form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>
-">
-<table class="form_table">
-  <? //Display Error Message
-if($validation_message== $success_message) { ?>
-<tr><td colspan="2"><span class="form_message_success"><?php echo $validation_message; ?></span></td></tr>
-<?php } else if($validation_message!="") { ?>
-<tr><td colspan="2"><span class="form_message_fail"><?php echo $validation_message; ?></span></td></tr>
-<?php } ?>
-<tr><td colspan="2"><p>Fields marked with <span class="required">*</span> are required.</p></td></tr>
-<tr>
-    <td class="form_title"><p>Name:<span class="required">*</span></p></td>
-    <td><input type="text" name="name" id="name" value="<?php echo $_POST['name']; ?>" /></td>
-  </tr>
-  <tr>
-    <td class="form_title"><p>Email:<span class="required">*</span></p></td>
-    <td><input type="text" name="email" id="email" value="<?php echo $_POST['email']; ?>" /></td>
-  </tr>
-  <tr>
-    <td class="form_title"><p>Phone:<span class="not_required">*</span></p></td>
-    <td><input type="text" name="phone" id="phone" value="<?php echo $_POST['phone']; ?>" /></td>
-  </tr>
-  <tr>
-    <td class="form_title"><p>Company:<span class="not_required">*</span></p></td>
-    <td><input type="text" name="company" id="company" value="<?php echo $_POST['company']; ?>" /></td>
-  </tr>
-  <tr>
-    <td class="form_title"><p>Website:<span class="not_required">*</span></p></td>
-    <td><input type="text" name="website" id="website" value="<?php echo $_POST['website']; ?>" /><br />
-    <span class="url_example">(e.g. http://www.your-site.com)</span></td>
-  </tr>
-  <tr>
-    <td class="form_title"><p>Comments:<span class="required">*</span></p></td>
-    <td><textarea name="comments" id="comments" rows="5"><?php echo $_POST['comments']; ?></textarea></td>
-  </tr>
-  <tr>
-    <td>&nbsp;</td>
-    <td><?php  
-  require_once('recaptchalib.php');       
-  echo recaptcha_get_html($publickey);     
-  ?></td>
-  </tr>
-  <tr>
-    <td>&nbsp;</td>
-    <td><input type="submit" name="submit" value="Submit" /><span class="form_source">Secure PHP form by <a href="http://www.bigondesign.co.uk/viewarticle.php?id=36" target="_blank">Big on Design</a></span></td>
-  </tr>
- 
-  </table>
+
+
+
+<!-- Required header files -->
+
+
+<!-- This function refreshes the security or captcha code when clicked on the refresh link -->
+<script type="text/javascript">
+function vpb_refresh_aptcha()
+{
+    return document.getElementById("vpb_captcha_code").value="",document.getElementById("vpb_captcha_code").focus(),document.images['captchaimg'].src = document.images['captchaimg'].src.substring(0,document.images['captchaimg'].src.lastIndexOf("?"))+"?rand="+Math.random()*1000;
+}
+</script>
+
+
+
+
+
+<!-- Code Begins Here -->
+<div class="vasplus_programming_blog_wrapper" align="left">
+<center>
+<div style="font-family:Verdana, Geneva, sans-serif; font-size:16px; float:left; width:120px;" align="left">Contact Form</div>
+<div style="font-family:Verdana, Geneva, sans-serif; font-size:11px; float:left; padding-top:4px;" align="left">Please complete the form below to reach us...</div><br clear="all" /><br clear="all" />
+
+<div style="width:430px; font-family:Verdana, Geneva, sans-serif; font-size:12px;padding:10px;" align="left">
+<form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" enctype="multipart/form-data">
+
+<div style="width:100px;padding-top:10px;float:left;font-family:Verdana, Geneva, sans-serif; font-size:11px;" align="left">Your Fullname:</div>
+<div style="width:300px; float:left;" align="left"><input type="text" id="fullname" name="fullname" value="<?php echo strip_tags($_POST["fullname"]); ?>" class="vpb_input_fields"></div><br clear="all"><br clear="all">
+
+
+<div style="width:100px;padding-top:10px;float:left;font-family:Verdana, Geneva, sans-serif; font-size:11px;" align="left">Email Address:</div>
+<div style="width:300px; float:left;" align="left"><input type="text" id="email" name="email" value="<?php echo strip_tags($_POST["email"]); ?>" class="vpb_input_fields"></div><br clear="all"><br clear="all">
+
+<div style="width:100px;padding-top:10px;float:left;font-family:Verdana, Geneva, sans-serif; font-size:11px;" align="left">Email Subject:</div>
+<div style="width:300px; float:left;" align="left"><input type="text" id="subject" name="subject" value="<?php echo strip_tags($_POST["subject"]); ?>" class="vpb_input_fields"></div><br clear="all"><br clear="all">
+
+
+<div style="width:100px;padding-top:10px;float:left;font-family:Verdana, Geneva, sans-serif; font-size:11px;" align="left">Your Message:</div>
+<div style="width:300px; float:left;" align="left"><textarea id="message" name="message" style="width:280px; height:80px; padding:10px;" class="vpb_input_fields"><?php echo strip_tags($_POST["message"]); ?></textarea></div><br clear="all"><br clear="all">
+
+
+<div style="width:100px;padding-top:10px;float:left;font-family:Verdana, Geneva, sans-serif; font-size:11px;" align="left">Security Code:</div>
+<div style="width:300px; float:left;" align="left">
+<div class="vpb_captcha_wrappers"><input type="text" id="vpb_captcha_code" name="vpb_captcha_code" style="border-bottom: solid 2px #cbcbcb;" class="vpb_input_fields"></div></div><br clear="all">
+<div style="width:100px; float:left;" align="left">&nbsp;</div>
+<div style="width:300px; float:left;" align="left"><div class="vpb_captcha_wrapper"><img src="vasplusCaptcha.php?rand=<?php echo rand(); ?>" id='captchaimg' ></div><br clear="all">
+<div style=" padding-top:5px;" align="left"><font style="font-family:Verdana, Geneva, sans-serif; font-size:11px;">Can't read the above security code? <span class="ccc"><a href="javascript:void(0);" onClick="vpb_refresh_aptcha();">Refresh</a></span></font></div>
+
+</div>
+<br clear="all"><br clear="all">
+
+<div style="width:420px; float:left;" align="left"><?php echo $submission_status; ?></div><!-- Display success or error messages -->
+<div style="width:100px; float:left;" align="left">&nbsp;</div>
+<div style="width:300px; float:left;" align="left">
+<input type="hidden" id="submitted" name="submitted" value="1">
+<input type="submit" class="vpb_general_button"  value="Submit">
+</div>
+
+
 </form>
+</div>
+<br clear="all">
+</center>
+</div>
+<!-- Code Ends Here -->
