@@ -1,3 +1,14 @@
+
+<!--  FOR THIS FORM TO WORK YOU JUST NEED :
+- THE IMAGES FOLDER WITH THE 2 FILES AHGBold.ttf and monofont.ttf
+- PLUS THE FORM.PHP AND vasplusCaptcha.PHP FILES  
+- The form-styles.css file
+-->
+
+<?php include('header.php'); ?>
+
+<div style="margin-top: 50px" class="form-wrapper">
+
 <?php
 session_start();
 ob_start();
@@ -6,7 +17,7 @@ ini_set('error_reporting', 0);
 if(isset($_POST["submitted"]) && $_POST["submitted"] == 1)
 {
     //Read POST request params into global vars
-    $to_email          = "info@vasplus.info"; // Replace this email field with your email address or your company email address
+    $to_email          = "brenwarren@me.com"; // Replace this email field with your email address or your company email address
     $from_fullname     = trim(strip_tags($_POST['fullname']));
     $from_email        = trim(strip_tags($_POST['email']));
     $email_subject     = 'TESTING CAPTCHA: '.trim(strip_tags($_POST['subject']));
@@ -117,7 +128,7 @@ function vpb_refresh_aptcha()
 <div style="width:300px; float:left;" align="left">
 <div class="vpb_captcha_wrappers"><input type="text" id="vpb_captcha_code" name="vpb_captcha_code" style="border-bottom: solid 2px #cbcbcb;" class="vpb_input_fields"></div></div><br clear="all">
 <div style="width:100px; float:left;" align="left">&nbsp;</div>
-<div style="width:300px; float:left;" align="left"><div class="vpb_captcha_wrapper"><img src="contact_form/vasplusCaptcha.php?rand=<?php echo rand(); ?>" id='captchaimg' ></div><br clear="all">
+<div style="width:300px; float:left;" align="left"><div class="vpb_captcha_wrapper"><img src="vasplusCaptcha.php?rand=<?php echo rand(); ?>" id='captchaimg' ></div><br clear="all">
 <div style=" padding-top:5px;" align="left"><font style="font-family:Verdana, Geneva, sans-serif; font-size:11px;">Can't read the above security code? <span class="ccc"><a href="javascript:void(0);" onClick="vpb_refresh_aptcha();">Refresh</a></span></font></div>
 
 </div>
@@ -136,4 +147,5 @@ function vpb_refresh_aptcha()
 <br clear="all">
 </center>
 </div>
+</div> <!-- form-wrapper div end. This encloses whole form-->
 <!-- Code Ends Here -->
