@@ -10,28 +10,20 @@
          
         <div class="tagline-box">
             <p class="header-text">Dale Warren &amp; Son</p>
-            <h1 class="tagline">Registered Plumbers &amp; Heating Installers Mid-Wales</h1>
-            <a class="btn btn-primary btn-primary contact-btn">Contact us</a><br>
-            <h2 class="tagline" style="font-size:1.3em; font-weight: 200">Domestic &amp; Commercial</h2>
-            <br>
-            <h1 style="font-size: 1em; font-weight: 200">Burners (Wood <span style="color: #7f8c8d">•</span> Gas <span style="color: #7f8c8d">•</span> Oil) <span style="color: #7f8c8d">•</span> Fires <span style="color: #7f8c8d">•</span> Solar <span style="color: #7f8c8d">•</span> Biomass
-              <br>Installation &amp; Modifications<br><br>
+            <h1 class="tagline">Registered Plumbers &amp; Heating Installers Mid-Wales<br>
+              Domestic &amp; Commercial</h1>
+            <h1 style="font-size: 1em; font-weight: 200; color: #7f8c8d">Burners (Wood • Gas • Oil) • Fires • Solar • Biomass
             </h1>
         </div>
           
-       
-      </div>
-    </div>
 
-        <!-- Service buttons -->
-
-        <div class="container-fluid" style="margin-bottom: 20px; margin-left: 15px">
+          <div class="container-fluid services-btn-wrapper" style="margin-top: 20px">
 
           <div class="row">
              <div class="col-xs-1 glyphicon glyphicon-fire glyphicon-lg">
               </div>
               <div class="col-sm-11" style="padding-left: 0px">
-                  <p><a class="btn btn-lg btn-block woodburner-bg-color" href="#woodburners">Wood Burners</a></p>
+                  <p><a class="btn btn-lg woodburner-bg-color" href="#woodburners" >Wood Burners</a></p>
                </div>
           </div>
 
@@ -39,7 +31,7 @@
               <div class="col-xs-1 glyphicon glyphicon-certificate glyphicon-lg">
               </div>
               <div class="col-sm-11" style="padding-left: 0px">
-                  <p><a class="btn btn-lg btn-block heating-bg-color btn-shadow-lg"  href="#heating">Heating</a></p>
+                  <p><a class="btn btn-lg heating-bg-color btn-shadow-lg"  href="#heating">Heating</a></p>
               </div>
           </div>
 
@@ -47,11 +39,19 @@
               <div class="col-xs-1 glyphicon glyphicon-tint glyphicon-lg">
               </div>
               <div class="col-sm-11" style="padding-left: 0px">
-                  <p><a class="btn btn-lg btn-block plumbing-bg-color" href="#plumbing">Plumbing</a></p>
+                  <p><a class="btn btn-lg plumbing-bg-color" href="#plumbing">Plumbing</a></p>
                </div>
           </div>
 
         </div> 
+
+       
+      </div>
+    </div>
+
+        <!-- Service buttons -->
+
+        
 
         <!--  END OF Main jumbotron header section -->
 
@@ -135,7 +135,7 @@
 
         <div class="col-md-6" style="height:230px">
 
-          <div class="left-container" style="background-color: #95A5A6">
+          <div class="left-container" style="background-color: #D2D7D3">
             <h3>Safety &amp; Quality</h3>
             <span class="col-xs-1 glyphicon glyphicon-ok info-box-icon"></span>           
           </div> 
@@ -352,7 +352,7 @@
 
                
 
-              <div class="left-container-services contact-bg-color" style="height: 300px">
+              <div id="contact" class="left-container-services contact-bg-color" style="height: 300px">
                 
                   <h3 class="avoid-menubar">Contact Details</h3>
               
@@ -407,7 +407,7 @@
     
 
       <footer>
-        <p>&copy; Company 2013</p>
+        <p>&copy; Dale Warren &amp; Son LTD 2014</p>
       </footer>
           
 

@@ -28,7 +28,7 @@
 h1.tagline {
   font-size: 1em; 
   font-weight: 200; 
-  color: #FFB46C;
+  color: #7f8c8d;
 }
 
 h2.tagline {
@@ -38,13 +38,13 @@ h2.tagline {
 }
 
 .tagline-box {
-  background-color: rgba(44, 62, 80,0.95);
+  background-color: rgba(236, 240, 241,0.8);
+  /*  background-color: rgba(44, 62, 80,0.95); */
 	 font-size: 1em;
   color: #ecf0f1;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 20px;
-  margin-left: 200px; 
 	
 }
 
@@ -53,12 +53,11 @@ h2.tagline {
 }
 
 .glyphicon-lg {
-	font-size: 2.4em;
-  #34495e
+	font-size: 2em;
 }
 
 .header-bg-img {
-	background-image: url("../inc/img/fireplace-a-in-empty-room-m.jpg");
+	background-image: url("../inc/img/solar-panels-on-roof.jpg");
 	min-height: 500px;
 	background-size: cover;
   padding-top: 1px;
@@ -125,19 +124,29 @@ other displays requires Fixed property which interferes with small display nav m
 .woodburner-bg-color {
   background-color: #FFB46C;
 
-  #F2784B;
 }
 
 .heating-bg-color {
   background-color: #5FC073;
 
-  #66CC99;
 }
 
 .plumbing-bg-color {
   background-color: #C2B49A;
 
-  #ADEBFC;
+}
+
+.services-btn-wrapper {
+  background-color: rgba(236, 240, 241,0.8);
+  color: #7f8c8d;
+  padding: 10px;
+  margin-top: 30px;
+  
+   -webkit-border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-ms-border-radius: 5px 5px 5px 5px;
+-o-border-radius: 5px 5px 5px 5px;
+border-radius: 5px 5px 5px 5px;
 }
 
 .left-container {
@@ -155,8 +164,6 @@ other displays requires Fixed property which interferes with small display nav m
 -o-border-radius: 5px 0 0 5px;
 border-radius: 5px 0 0 5px;
 
-box-shadow: 3px 3px 5px #7f8c8d;
-
 }
 
 
@@ -168,16 +175,12 @@ box-shadow: 3px 3px 5px #7f8c8d;
   text-align: center;
   color: #fff;
 
-  margin-top: -2px;
-
 
  -webkit-border-radius: 5px 0 0 5px;
 -moz-border-radius: 5px 0 0 5px;
 -ms-border-radius: 5px 0 0 5px;
 -o-border-radius: 5px 0 0 5px;
 border-radius: 5px 0 0 5px;
-
-box-shadow: 4px 4px 5px #7f8c8d;
 
 }
 
@@ -189,7 +192,7 @@ box-shadow: 4px 4px 5px #7f8c8d;
   margin-left: 5px;
   overflow: auto;
   padding: 10px;
-  margin-top: 2px;
+ 
 }
 
 .right-container-services {
@@ -305,7 +308,11 @@ box-shadow: 4px 4px 5px #7f8c8d;
       padding: 10px; 
       margin-top: 0px;
       margin-bottom: 0px;
-      box-shadow: 3px 3px 5px #7f8c8d;
+     
+    }
+
+    .services-btn-wrapper {
+      margin-left: 0px;
     }
     
 
@@ -332,8 +339,14 @@ box-shadow: 4px 4px 5px #7f8c8d;
   margin-left: 2px;
 }
 
+.btn-lg {
+  color: #7f8c8d;
+  margin-left: 30px;
+}
+
 .btn-lg:hover {
   font-weight: 500;
+  color: #fff;
 }
 
 .btn-block:hover {
