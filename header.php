@@ -13,13 +13,7 @@
       <meta name="viewport" content="width=device-width">
 
       <link rel="stylesheet" href="css/bootstrap.css">
-      <style>
-          body {
-              padding-top: 50px;
-              padding-bottom: 20px;
-              color: #34495e;
-          }
-      </style>
+      
       <link rel="stylesheet" href="css/bootstrap-theme.css">
       <link rel="stylesheet" href="css/main.css">
       <link href="css/form-style.css" rel="stylesheet" type="text/css" />

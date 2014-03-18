@@ -63,7 +63,7 @@
 
           <div class="left-container" style="background-color: #D2D7D3; margin-left: 2px" >
             <h3>Service Area</h3>
-            <span class="col-xs-1 glyphicon glyphicon-record info-box-icon"></span>            
+            <span class="col-xs-1 glyphicon glyphicon-map-marker info-box-icon"></span>            
           </div> 
 
           <div class="right-container">
@@ -345,9 +345,63 @@
 
       <hr>
 
-    <!-- START OF EMAIL CONTACT FORM -->
+      <!-- CONTACT US SECTION - START  -->
 
-<a href="form.php">SEND MESSAGE</a>
+    <div class="service-container">
+              <h2 style="text-align: center">Contact Us</h2>
+
+               
+
+              <div class="left-container-services contact-bg-color" style="height: 300px">
+                
+                  <h3 class="avoid-menubar">Contact Details</h3>
+              
+                <span class="col-xs-1 glyphicon glyphicon-earphone info-box-icon"></span>
+                
+              </div> 
+
+                  <div class="right-container-services contact-right-container">
+                
+                        <h3 class="visible-xs service-box-header-xs contact-bg-color ">Contact Details</h3>
+                        
+                            <div class="services-text-box" style="padding-left: 0px">
+                                
+                                 <div>
+                                    <span class="glyphicon glyphicon-earphone big-icon" style="float: left"></span>
+
+                                    <div class="contact-text" style="">
+                                      <p>07931 875436 or 07980 840041 or 01686 688600</p>
+                                    </div>
+                                  </div>
+
+                                  <div>
+                                    <span class="glyphicon glyphicon-comment big-icon" style="float: left"></span>
+
+                                    <div class="contact-text" style="margin-top: 30px">
+                                      <p><a href="form.php" target="_blank">Send us a message directly from our website!</a></p>
+                                    </div>
+                                  </div>
+
+                                  <div>
+                                    <span class="glyphicon glyphicon-envelope big-icon" style="float: left"></span>
+
+                                    <div class="contact-text" style="margin-top: 30px">
+                                      <p><a href="mailto:hello@dalewarrenandson.com?Subject=Enquiry&nbsp;regarding&#58;" target="_top">Send us an Email</a></p>
+                                    </div>
+                                  </div>
+                              
+                               
+                            
+
+                            </div>
+                   
+                    </div> 
+        </div>                
+
+
+    <!-- END OF CONTACT US SECTION-->
+
+
 
 
     
