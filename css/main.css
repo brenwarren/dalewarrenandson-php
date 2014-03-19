@@ -18,7 +18,7 @@
 .header-text {
 
 	/*color: #669900; */
-  font-size: 3em;
+  font-size: 2em;
   color: #A3C737;
 	text-align: center; 
   
@@ -38,13 +38,19 @@ h2.tagline {
 }
 
 .tagline-box {
-  background-color: rgba(236, 240, 241,0.8);
+  background-color: rgba(236, 240, 241,0.9);
   /*  background-color: rgba(44, 62, 80,0.95); */
 	 font-size: 1em;
   color: #ecf0f1;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 20px;
+
+   -webkit-border-radius: 0 0 5px 5px;
+-moz-border-radius: 0 0 5px 5px;
+-ms-border-radius: 0 0 5px 5px;
+-o-border-radius: 0 0 5px 5px;
+border-radius: 0 0 5px 5px;
 	
 }
 
@@ -57,14 +63,14 @@ h2.tagline {
 }
 
 .header-bg-img {
-	background-image: url("../inc/img/solar-panels-on-roof.jpg");
-	min-height: 500px;
-	background-size: cover;
+	background-image: url("../inc/img/copper-piping.jpg");
+	min-height: 410px;
+	background-size: auto;
   padding-top: 1px;
 }
 
 .header-bg-img-xs{
-  background-image: url("../inc/img/fireplace-a-in-empty-room-m.jpg");
+  background-image: url("../inc/img/solar-panels-on-roof.jpg");
   min-height: 300px;
   background-size: cover;
 }
@@ -137,16 +143,17 @@ other displays requires Fixed property which interferes with small display nav m
 }
 
 .services-btn-wrapper {
-  background-color: rgba(236, 240, 241,0.8);
+  background-color: rgba(236, 240, 241,0.9);
   color: #7f8c8d;
-  padding: 10px;
+  padding: 10px 10px 10px 10px;
   margin-top: 30px;
+  margin-bottom: 0px;
   
    -webkit-border-radius: 5px 5px 5px 5px;
 -moz-border-radius: 5px 5px 5px 5px;
 -ms-border-radius: 5px 5px 5px 5px;
 -o-border-radius: 5px 5px 5px 5px;
-border-radius: 5px 5px 5px 5px;
+border-radius: 5px 5px 0 0;
 }
 
 .left-container {
@@ -204,6 +211,10 @@ border-radius: 5px 0 0 5px;
 /*CHANGES FOR ALL SCREENS EXCEPT EXTRA SMALL SCREENS */
 @media (min-width: 768px) {
 
+      .header-bg-img {
+      min-height: 400px;
+    }
+
     /* ADDS ROUNDED CORNERS TO RIGHT HAND SIDE OF MAIN BOXES*/
     .right-container, .right-container-services {
       -webkit-border-radius: 0px 5px 5px 0px;
@@ -214,7 +225,7 @@ border-radius: 5px 0 0 5px;
     }
 
     .right-container-services {
-      padding-right: 80px;
+      padding-right: 100px;
       padding-top: 10px;
        height: 400px;
        margin-top: 10px;
@@ -228,14 +239,18 @@ border-radius: 5px 0 0 5px;
 
     }
 
-    .services-text-box {  
-
-      background-color: rgba(236, 240, 241,0.9);
+    .services-text-box {    
+      padding-left: 50px;   
       -webkit-border-radius: 0 5px 5px 0;
       -moz-border-radius: 0 5px 5px 0;
       -ms-border-radius: 0 5px 5px 0;
       -o-border-radius: 0 5px 5px 0;
       border-radius: 0 5px 5px 0;
+    }
+
+    .area-safety-wrapper {
+      height: 230px; 
+      margin-bottom: 8px;
     }
 
     
@@ -264,6 +279,12 @@ border-radius: 5px 0 0 5px;
       border-radius: 5px 5px 5px 5px;
     }
 
+
+    .header-bg-img {
+      min-height: 320px;
+    }
+    
+
      .left-container {
     display: none !important;
     }
@@ -283,6 +304,7 @@ border-radius: 5px 0 0 5px;
     .right-container-services {
       padding-right: 0px;
       padding-top: 0px;
+      padding-left: 0px;
       overflow: auto;
     }
 
@@ -293,9 +315,12 @@ border-radius: 5px 0 0 5px;
 
     }
 
+    .header-text {
+      display: none !important;
+    }
     .services-text-box {
       margin-top: 0px;
-      background-color: rgba(236, 240, 241,0.9);
+      padding-left: 0px;
     }
 
      .box-header-xs {
@@ -314,6 +339,11 @@ border-radius: 5px 0 0 5px;
     .services-btn-wrapper {
       margin-left: 0px;
     }
+
+     .area-safety-wrapper {
+      height: 250px; 
+      margin-bottom: 20px;
+    }
     
 
 
@@ -331,6 +361,7 @@ border-radius: 5px 0 0 5px;
 .service-container {
   margin-left: 2px;
   margin-right: 2px;
+  margin-bottom: 20px;
 
 
 }
@@ -386,7 +417,7 @@ border-radius: 5px 0 0 5px;
 
 .heating-right-container{
   
-  background-image: url('../inc/img/solar-panels-on-roof.jpg');
+  background-image: url('../inc/img/fireplace-a-in-empty-room-m.jpg');
   background-size: cover;
 }
 
@@ -401,10 +432,9 @@ border-radius: 5px 0 0 5px;
 
 .services-text-box {
 
-   
+  background-color: rgba(236, 240, 241,0.9);
   padding-top: 10px;
   padding-bottom: 30px;
-  padding-left: 60px;
   font-size: 1.2em;
  
 
@@ -453,8 +483,8 @@ border-radius: 5px 0 0 5px;
 }
 
 .avoid-menubar {
-  padding-top: 100px;
-  margin-top: -100px;
+  padding-top: 80px;
+  margin-top: -80px;
 }
 
 .contact-right-container {
