@@ -18,21 +18,21 @@
           
            <!-- Service buttons - start -->
 
-          <div class="container-fluid services-btn-wrapper" style="margin-top: 20px">
+          <div class="container-fluid " style="margin-top: 20px">
 
           <div class="row">
              <div class="col-xs-1 glyphicon glyphicon-fire glyphicon-lg">
               </div>
-              <div class="col-sm-11" style="padding-left: 0px">
-                  <p><a class="btn btn-lg woodburner-bg-color" href="#woodburners" >Wood Burners</a></p>
+              <div class="col-sm-11" style="padding-left: 0px; margin-bottom: 5px">
+                  <a class="btn btn-lg woodburner-bg-color" href="#woodburners" >Wood Burners</a>
                </div>
           </div>
 
           <div class="row">
               <div class="col-xs-1 glyphicon glyphicon-certificate glyphicon-lg">
               </div>
-              <div class="col-sm-11" style="padding-left: 0px">
-                  <p><a class="btn btn-lg heating-bg-color btn-shadow-lg"  href="#heating">Heating</a></p>
+              <div class="col-sm-11" style="padding-left: 0px; margin-bottom: 5px">
+                  <a class="btn btn-lg heating-bg-color btn-shadow-lg"  href="#heating">Heating</a>
               </div>
           </div>
 
@@ -40,7 +40,7 @@
               <div class="col-xs-1 glyphicon glyphicon-tint glyphicon-lg">
               </div>
               <div class="col-sm-11" style="padding-left: 0px">
-                  <p><a class="btn btn-lg plumbing-bg-color" href="#plumbing">Plumbing</a></p>
+                  <a class="btn btn-lg plumbing-bg-color" href="#plumbing">Plumbing</a>
                </div>
           </div>
 
@@ -60,9 +60,9 @@
 
       <!-- START OF Services section -->
 
-      <div class="service-container">
-              <h2 style="text-align: center">Services</h2>
-
+      
+        <h2 class="section-heading" style="text-align: center">Services</h2>
+        <div class="service-container">
                  <!--   <div class="service-info-box" style="margin-bottom: 20px">  -->
 
                         <div class="left-container-services woodburner-bg-color" style="">
@@ -200,7 +200,7 @@
       <!-- CONTACT US SECTION - START  -->
 
     <div class="service-container">
-              <h2 style="text-align: center">Contact Us</h2>
+              <h2 class="section-heading" style="text-align: center">Contact Us</h2>
 
                
 

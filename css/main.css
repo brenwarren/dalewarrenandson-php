@@ -13,12 +13,14 @@
 }
 
 
-
+h2.section-heading {
+  line-height: 150%;
+}
 
 .header-text {
 
 	/*color: #669900; */
-  font-size: 2em;
+  font-size: 1.5em;
   color: #A3C737;
 	text-align: center; 
   
@@ -38,8 +40,9 @@ h2.tagline {
 }
 
 .tagline-box {
-  background-color: rgba(236, 240, 241,0.9);
-  /*  background-color: rgba(44, 62, 80,0.95); */
+  background:rgba(255,255,255, 0.9);
+  /*background-color: rgba(236, 240, 241,0.9);
+  background-color: rgba(44, 62, 80,0.95); */
 	 font-size: 1em;
   color: #ecf0f1;
   text-align: center;
@@ -60,6 +63,7 @@ border-radius: 0 0 5px 5px;
 
 .glyphicon-lg {
 	font-size: 2em;
+  color: rgba(255,255,255, 0.9);
 }
 
 .header-bg-img {
@@ -143,11 +147,13 @@ other displays requires Fixed property which interferes with small display nav m
 }
 
 .services-btn-wrapper {
-  background-color: rgba(236, 240, 241,0.9);
+  background:rgba(255,255,255, 1.0);
+  /*background-color: rgba(236, 240, 241,0.9);  */
   color: #7f8c8d;
   padding: 10px 10px 10px 10px;
   margin-top: 30px;
   margin-bottom: 0px;
+  margin-right: 500px;
   
    -webkit-border-radius: 5px 5px 5px 5px;
 -moz-border-radius: 5px 5px 5px 5px;
@@ -225,12 +231,22 @@ border-radius: 5px 0 0 5px;
     }
 
     .right-container-services {
-      padding-right: 100px;
-      padding-top: 10px;
+      padding-right: 0px;
+      padding-top: 0px;
        height: 400px;
        margin-top: 10px;
        margin-bottom: 20px;
 
+    }
+
+    .service-container {
+      padding:  20px 20px 20px 20px;
+
+      -webkit-border-radius: 5px 5px 5px 5px;
+      -moz-border-radius: 5px 5px 5px 5px;
+      -ms-border-radius: 5px 5px 5px 5px;
+      -o-border-radius: 5px 5px 5px 5px;
+      border-radius: 5px 5px 5px 5px;
     }
 
 
@@ -257,8 +273,8 @@ border-radius: 5px 0 0 5px;
 
     /* ADDS BODY PADDING LEFT AND RIGHT FOR BIGGER SCREENS*/
     body {
-      padding-left: 15px;
-      padding-right: 15px;
+      padding-left: 150px;
+      padding-right: 150px;
     }
 }
 
@@ -362,6 +378,7 @@ border-radius: 5px 0 0 5px;
   margin-left: 2px;
   margin-right: 2px;
   margin-bottom: 20px;
+  background-color: #fff;
 
 
 }
@@ -432,7 +449,7 @@ border-radius: 5px 0 0 5px;
 
 .services-text-box {
 
-  background-color: rgba(236, 240, 241,0.9);
+  background-color: rgba(236, 240, 241,1);
   padding-top: 10px;
   padding-bottom: 30px;
   font-size: 1.2em;
