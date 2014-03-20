@@ -17,30 +17,30 @@
         </div>
           
            <!-- Service buttons - start -->
-           <div style="margin-top: 10px">
+           <div style="margin-top: 10px" class="container-fluid">
 
-              <div>
-                 <span class="glyphicon glyphicon-fire glyphicon-lg">
-                  </span>
-                  <a class="btn btn-lg woodburner-bg-color" style="margin-top: 7px" href="#woodburners" >Wood Burners</a>
+              
+              <!--   <span class="glyphicon glyphicon-fire glyphicon-lg">
+                  </span>  -->
+                  <a class="btn btn-lg woodburner-bg-color" style="margin-top: 7px; margin-left:0" href="#woodburners" >Wood Burners</a>
                    
-              </div>
+             
 
-              <div class="">
-                  <span class="glyphicon glyphicon-certificate glyphicon-lg">
-                  </span>
+              
+              <!--    <span class="glyphicon glyphicon-certificate glyphicon-lg">
+                  </span>  -->
                   
                       <a class="btn btn-lg heating-bg-color btn-shadow-lg" style="margin-top: 7px" href="#heating">Heating</a>
                  
-              </div>
+             
 
-              <div style="">
-                  <span class="glyphicon glyphicon-tint glyphicon-lg">
-                  </span>
+             
+               <!--   <span class="glyphicon glyphicon-tint glyphicon-lg">
+                  </span>   -->
                   
                       <a class="btn btn-lg plumbing-bg-color" style="margin-top: 7px" href="#plumbing">Plumbing</a>
                   
-              </div>
+             
 
           </div>
 
@@ -228,7 +228,7 @@
                                       <li>Instalation and maintance of plant and boiler rooms</li>
                                       <li>Biomass</li>
                                     </ul>
-                                    
+
                                 </div>
 
                                     <button id="plumbing-popover" type="button" style="margin-top: 20px" class="btn btn-more-services" data-container="" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Please contact us to ask if you need help with something not listed, but you feel is related. We'll let you know quickly whether we can offer the service you need or not.">

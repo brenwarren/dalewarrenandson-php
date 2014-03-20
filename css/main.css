@@ -70,7 +70,7 @@ border-radius: 0 0 5px 5px;
 .header-bg-img {
 	background-image: url("../inc/img/copper-piping.jpg");
 	
-	background-size: auto;
+	background-size: cover;
   padding-top: 1px;
   padding-bottom: 20px;
 }
@@ -131,7 +131,11 @@ other displays requires Fixed property which interferes with small display nav m
 
 .btn-lg {
   box-shadow: 3px 3px 5px #7f8c8d;
+  color: #fff;
+  margin-left: 20px;
 }
+
+
 
 .woodburner-bg-color {
   background-color: #FFB46C;
@@ -220,7 +224,7 @@ border-radius: 5px 0 0 5px;
 @media (min-width: 768px) {
 
       .header-bg-img {
-      min-height: 400px;
+      min-height: 300px;
     }
 
     /* ADDS ROUNDED CORNERS TO RIGHT HAND SIDE OF MAIN BOXES*/
@@ -401,10 +405,6 @@ border-radius: 5px 0 0 5px;
   margin-left: 2px;
 }
 
-.btn-lg {
-  color: #7f8c8d;
-  margin-left: 30px;
-}
 
 .btn-lg:hover {
   font-weight: 500;
