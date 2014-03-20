@@ -13,3 +13,9 @@ $('#heating-popover').popover();
 
 $('#plumbing-popover').popover();
 
+$('#bathrooms-plumbing-popover').popover();
+
+$('#general-plumbing-popover').popover();
+
+$('#boilers-plumbing-popover').popover();
+

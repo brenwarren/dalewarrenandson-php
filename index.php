@@ -17,35 +17,62 @@
         </div>
           
            <!-- Service buttons - start -->
+           <div style="margin-top: 10px">
 
+              <div>
+                 <span class="glyphicon glyphicon-fire glyphicon-lg">
+                  </span>
+                  <a class="btn btn-lg woodburner-bg-color" style="margin-top: 7px" href="#woodburners" >Wood Burners</a>
+                   
+              </div>
+
+              <div class="">
+                  <span class="glyphicon glyphicon-certificate glyphicon-lg">
+                  </span>
+                  
+                      <a class="btn btn-lg heating-bg-color btn-shadow-lg" style="margin-top: 7px" href="#heating">Heating</a>
+                 
+              </div>
+
+              <div style="">
+                  <span class="glyphicon glyphicon-tint glyphicon-lg">
+                  </span>
+                  
+                      <a class="btn btn-lg plumbing-bg-color" style="margin-top: 7px" href="#plumbing">Plumbing</a>
+                  
+              </div>
+
+          </div>
+
+<!--
           <div class="container-fluid " style="margin-top: 20px">
 
-          <div class="row">
-             <div class="col-xs-1 glyphicon glyphicon-fire glyphicon-lg">
+              <div class="row">
+                 <div class="col-xs-1 glyphicon glyphicon-fire glyphicon-lg">
+                  </div>
+                  <div class="col-sm-11" style="padding-left: 0px; margin-bottom: 5px">
+                      <a class="btn btn-lg woodburner-bg-color" href="#woodburners" >Wood Burners</a>
+                   </div>
               </div>
-              <div class="col-sm-11" style="padding-left: 0px; margin-bottom: 5px">
-                  <a class="btn btn-lg woodburner-bg-color" href="#woodburners" >Wood Burners</a>
-               </div>
-          </div>
 
-          <div class="row">
-              <div class="col-xs-1 glyphicon glyphicon-certificate glyphicon-lg">
+              <div class="row">
+                  <div class="col-xs-1 glyphicon glyphicon-certificate glyphicon-lg">
+                  </div>
+                  <div class="col-sm-11" style="padding-left: 0px; margin-bottom: 5px">
+                      <a class="btn btn-lg heating-bg-color btn-shadow-lg"  href="#heating">Heating</a>
+                  </div>
               </div>
-              <div class="col-sm-11" style="padding-left: 0px; margin-bottom: 5px">
-                  <a class="btn btn-lg heating-bg-color btn-shadow-lg"  href="#heating">Heating</a>
-              </div>
-          </div>
 
-          <div class="row">
-              <div class="col-xs-1 glyphicon glyphicon-tint glyphicon-lg">
+              <div class="row">
+                  <div class="col-xs-1 glyphicon glyphicon-tint glyphicon-lg">
+                  </div>
+                  <div class="col-sm-11" style="padding-left: 0px; margin-bottom: 20px">
+                      <a class="btn btn-lg plumbing-bg-color" href="#plumbing">Plumbing</a>
+                   </div>
               </div>
-              <div class="col-sm-11" style="padding-left: 0px">
-                  <a class="btn btn-lg plumbing-bg-color" href="#plumbing">Plumbing</a>
-               </div>
-          </div>
 
         </div> 
-
+-->
        
       </div>
     </div>
@@ -60,9 +87,9 @@
 
       <!-- START OF Services section -->
 
-      
-        <h2 class="section-heading" style="text-align: center">Services</h2>
-        <div class="service-container">
+       <h2 class="section-heading" style="text-align: center">Services</h2>
+        
+         <div class="service-container">
                  <!--   <div class="service-info-box" style="margin-bottom: 20px">  -->
 
                         <div class="left-container-services woodburner-bg-color" style="">
@@ -141,13 +168,90 @@
         <!--  END OF HEATING SECTION  -->
           
 
+
+
+                  <div class="left-container-services plumbing-bg-color" style="">
+                        <h3>Plumbing</h3>
+                        <span class="col-xs-1 glyphicon glyphicon-tint info-box-icon"></span>
+                  </div> 
+
+                   <div class="right-container-services plumbing-right-container" style="margin-bottom: 0">
+
+                          <h3 class="visible-xs service-box-header-xs plumbing-bg-color" style="">Plumbing</h3>
+        
+                          <div class="services-text-box">
+
+                                <div class="well service-well">
+
+                                    <div id="plumbing">
+                                      <h4 class="avoid-menubar" style="text-indent: 1em; color: #7f8c8d">Domestic Plumbing</h4>
+                                    </div>
+
+
+                                    <button id="general-plumbing-popover" type="button" style="" class="btn btn-more-services" data-container="" data-toggle="popover" data-placement="bottom" data-html="true" 
+
+                                    data-content="<h4><small>General:</small></h4><ul>
+                                      <li>Installation of hot and cold water systems</li>
+                                      <li>Hot water cylinders (vented and un-vented)</li>
+                                      <li>Water filters, pumps, taps, toilets, baths, showers, sinks, wet rooms,washing machines,</li>
+                                      <li>dishwashers, pressure sets, water tanks, ball valves, pipe work</li>
+                                      <li>Installation repair and maintenance of all of the above.</li>
+                                    </ul>">
+                                    <span class="btn-bullet-1" style="color: #C2B49A">•</span>General</button>
+
+
+                                    <button id="boilers-plumbing-popover" type="button" style="" class="btn btn-more-services" data-container="" data-toggle="popover" data-placement="bottom" data-html="true" 
+
+                                    data-content="<h4><small>Boilers:</small></h4>
+                                    <ul>
+                                      <li>Gas and oil boiler:  Installation, commissioning, servicing and repair</li>
+                                    </ul>">
+                                    <span class="btn-bullet-1" style="color: #C2B49A">•</span>Boilers</button>
+
+                                    
+                                     <button id="bathrooms-plumbing-popover" type="button" style="" class="btn btn-more-services" data-container="" data-toggle="popover" data-placement="bottom" data-html="true" 
+
+                                    data-content="<h4><small>Bathrooms:</small></h4>
+                                    <ul>
+                                      <li>Full installation of bathrooms:  Including tiling, wet rooms and power showers</li>
+                                    </ul>">
+                                    <span class="btn-bullet-1" style="color: #C2B49A">•</span>Bathrooms</button>
+
+                               </div> 
+                               
+                                <div class="well service-well">
+
+                                    <h4 style="text-indent: 1em; margin-top: 0; color: #7f8c8d">Commercial Plumbing</h4>
+
+                                    <ul>
+                                      <li>Installation of black iron pipe work</li>
+                                      <li>Instalation and maintance of plant and boiler rooms</li>
+                                      <li>Biomass</li>
+                                    </ul>
+                                    
+                                </div>
+
+                                    <button id="plumbing-popover" type="button" style="margin-top: 20px" class="btn btn-more-services" data-container="" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Please contact us to ask if you need help with something not listed, but you feel is related. We'll let you know quickly whether we can offer the service you need or not.">
+                                    <span class="btn-bullet-1" style="color: #C2B49A">•</span>More services
+                                    </button>
+                                
+                          </div> 
+                   
+                    </div>  
+
+
+
+
+
+
+         <!--  START OF PLUMBING SECTION  
          
                       <div class="left-container-services plumbing-bg-color" style="">
                         <h3>Plumbing</h3>
                         <span class="col-xs-1 glyphicon glyphicon-tint info-box-icon"></span>
                       </div> 
 
-                   <div class="right-container-services plumbing-right-container">
+                   <div class="right-container-services plumbing-right-container" style="margin-bottom: 0">
 
                           <h3 class="visible-xs service-box-header-xs plumbing-bg-color" style="">Plumbing</h3>
         
@@ -186,10 +290,10 @@
                               <span class="btn-bullet-1" style="color: #C2B49A">•</span>More services
                               </button>
 
-                          </div> <!-- end of services text box -->
+                          </div> 
                    
                     </div>  
-                    <!-- END OF PLUMBING SECTION -->
+                   END OF PLUMBING SECTION -->
           
     </div>  
 
@@ -199,11 +303,10 @@
 
       <!-- CONTACT US SECTION - START  -->
 
+    <h2 class="section-heading" style="text-align: center">Contact Us</h2>
+
     <div class="service-container">
-              <h2 class="section-heading" style="text-align: center">Contact Us</h2>
-
-               
-
+              
               <div id="contact" class="left-container-services contact-bg-color" style="height: 300px">
                 
                   <h3 class="avoid-menubar">Contact Details</h3>
@@ -212,7 +315,7 @@
                 
               </div> 
 
-                  <div class="right-container-services contact-right-container">
+                  <div class="right-container-services contact-right-container" style="margin-bottom:0">
                 
                         <h3 class="visible-xs service-box-header-xs contact-bg-color ">Contact Details</h3>
                         
@@ -222,7 +325,7 @@
                                     <span class="glyphicon glyphicon-earphone big-icon" style="float: left"></span>
 
                                     <div class="contact-text" style="">
-                                      <p>07931 875436 or 07980 840041 or 01686 688600</p>
+                                      <p>Choose from: 01686 688600 • 07931 875436 • 07980 840041</p>
                                     </div>
                                   </div>
 

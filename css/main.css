@@ -62,15 +62,17 @@ border-radius: 0 0 5px 5px;
 }
 
 .glyphicon-lg {
-	font-size: 2em;
+	font-size: 1.5em;
   color: rgba(255,255,255, 0.9);
+  vertical-align: middle;
 }
 
 .header-bg-img {
 	background-image: url("../inc/img/copper-piping.jpg");
-	min-height: 410px;
+	
 	background-size: auto;
   padding-top: 1px;
+  padding-bottom: 20px;
 }
 
 .header-bg-img-xs{
@@ -234,7 +236,6 @@ border-radius: 5px 0 0 5px;
       padding-right: 0px;
       padding-top: 0px;
        height: 400px;
-       margin-top: 10px;
        margin-bottom: 20px;
 
     }
@@ -256,7 +257,7 @@ border-radius: 5px 0 0 5px;
     }
 
     .services-text-box {    
-      padding-left: 50px;   
+      padding-left: 20px;   
       -webkit-border-radius: 0 5px 5px 0;
       -moz-border-radius: 0 5px 5px 0;
       -ms-border-radius: 0 5px 5px 0;
@@ -275,6 +276,12 @@ border-radius: 5px 0 0 5px;
     body {
       padding-left: 150px;
       padding-right: 150px;
+    }
+
+    .service-well {
+      margin-right: 50px;
+      margin-bottom: 10px;
+      padding: 10px 10px 10px 0;
     }
 }
 
@@ -297,7 +304,7 @@ border-radius: 5px 0 0 5px;
 
 
     .header-bg-img {
-      min-height: 320px;
+      min-height: 350px;
     }
     
 
@@ -335,7 +342,6 @@ border-radius: 5px 0 0 5px;
       display: none !important;
     }
     .services-text-box {
-      margin-top: 0px;
       padding-left: 0px;
     }
 
@@ -361,6 +367,14 @@ border-radius: 5px 0 0 5px;
       margin-bottom: 20px;
     }
     
+    .service-well {
+      margin-right: 0;
+      padding: 10px 10px 10px 0;
+    }
+
+    .btn-more-services {
+      margin-bottom: 5px;
+    }
 
 
 }
@@ -524,9 +538,12 @@ border-radius: 5px 0 0 5px;
 
 .contact-text {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
   font-weight: 500;
   line-height: 1.1;
   margin-left: 30px;
   color: #7f8c8d; 
   padding-top: 15px
 }
+
+
