@@ -17,7 +17,7 @@
         </div>
           
            <!-- Service buttons - start -->
-           <div style="margin-top: 10px" class="container-fluid">
+           <div style="margin-top: 10px" class="container-fluid service-btn-wrapper">
 
               
               <!--   <span class="glyphicon glyphicon-fire glyphicon-lg">
@@ -105,24 +105,29 @@
                                   <h3 class="visible-xs service-box-header-xs woodburner-bg-color ">Wood Burners</h3>
                                   
                                       <div class="services-text-box">
-                                          <div id="woodburners">
-                                            <h4 class="avoid-menubar" style="text-indent: 1em; color: #7f8c8d">Wood Fires and Burners</h4>
-                                          </div>
-                                          <ul>
-                                            <li>Sourcing and installing</li>  
-                                            <li>Flue liner installation</li>
-                                            <li>Chimney stack - building and repair</li>
-                                            <li>Stainless steel chimney - Installation of twin wall chimneys</li>
-                                            <li>Building of fire places, fire surrounds and hearths</li>
-                                            <li>Connecting your wood burner to heat the house and your hot water</li>
-                                            <li>Maintenance and upgrades</li>
-                                          </ul>
-                                          <button id="woodburners-popover" type="button" style="margin-top: 20px" class="btn btn-more-services" data-container="" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Please contact us to ask if you need help with something not listed, but you feel is related. We'll let you know quickly whether we can offer the service you need or not.">
-                                           
-                                          <span class="btn-bullet-1" style="color: #FFB46C">•</span>More services
-                                          </button>
 
+                                          <div class="well service-well">
+                                              <div id="woodburners">
+                                                  <h4 class="avoid-menubar" style="text-indent: 1em; color: #7f8c8d">Wood Fires and Burners</h4>
+                                              </div>
+                                              <ul>
+                                                <li>Sourcing and installing</li>  
+                                                <li>Flue liner installation</li>
+                                                <li>Chimney stack - building and repair</li>
+                                                <li>Stainless steel chimney - Installation of twin wall chimneys</li>
+                                                <li>Building of fire places, fire surrounds and hearths</li>
+                                                <li>Connecting your wood burner to heat the house and your hot water</li>
+                                                <li>Maintenance and upgrades</li>
+                                              </ul>
+
+                                           </div>
                                       </div>
+                                            <button id="woodburners-popover" type="button" style="margin-top: 20px" class="btn btn-more-services" data-container="" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Please contact us to ask if you need help with something not listed, but you feel is related. We'll let you know quickly whether we can offer the service you need or not.">
+                                             
+                                            <span class="btn-bullet-1" style="color: #FFB46C">•</span>More on Woodburners
+                                            </button>
+
+                                      
                              
                               </div> 
                         
@@ -141,28 +146,37 @@
                     <h3 class="visible-xs service-box-header-xs heating-bg-color" style="">Heating</h3>
         
                         <div class="services-text-box">
-                                <div id="heating">
-                                  <h4 class="avoid-menubar" style="text-indent: 1em; color: #7f8c8d">General Heating</h4>
-                                </div>
-                                 <ul>    
-                                    <li>Gas, Oil, wood or coal heating systems and fires</li>
-                                    <li>Full central heating systems installation</li>
-                                    <li>Heating system repair´s</li>
-                                    <li>Maintenanance and upgrades</li>
-                                    <li>Installation of under floor heating</li>
-                                  </ul>
 
-                                  <h4 style="text-indent: 1em; color: #7f8c8d">Solar Heating</h4>
+                              <div class="well service-well">
 
-                                  <ul>
-                                    <li>Installation and maintenance of solar systems</li>
-                                  </ul>
+                                  <div id="heating">
+                                    <h4 class="avoid-menubar" style="text-indent: 1em; color: #7f8c8d">General Heating</h4>
+                                  </div>
+                                   <ul>    
+                                      <li>Gas, Oil, wood or coal heating systems and fires</li>
+                                      <li>Full central heating systems installation</li>
+                                      <li>Heating system repair´s</li>
+                                      <li>Maintenanance and upgrades</li>
+                                      <li>Installation of under floor heating</li>
+                                    </ul>
 
+                              </div>
+
+                              <div class="well service-well">
+
+                                    <h4 style="text-indent: 1em; color: #7f8c8d">Solar Heating</h4>
+
+                                    <ul>
+                                      <li>Installation and maintenance of solar systems</li>
+                                    </ul>
+
+                               </div>     
+                        </div>
                                 <button id="heating-popover" type="button" style="margin-top: 20px" class="btn btn-more-services" data-container="" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Please contact us to ask if you need help with something not listed, but you feel is related. We'll let you know quickly whether we can offer the service you need or not.">
-                                <span class="btn-bullet-1" style="color: #5FC073">•</span>More services
+                                <span class="btn-bullet-1" style="color: #5FC073">•</span>More on Heating
                                 </button>
 
-                        </div>
+                        
                    
                   </div>  
         <!--  END OF HEATING SECTION  -->
@@ -221,7 +235,7 @@
                                
                                 <div class="well service-well">
 
-                                    <h4 style="text-indent: 1em; margin-top: 0; color: #7f8c8d">Commercial Plumbing</h4>
+                                    <h4 style="text-indent: 1em; margin-top: 0px;color: #7f8c8d">Commercial Plumbing</h4>
 
                                     <ul>
                                       <li>Installation of black iron pipe work</li>
@@ -230,12 +244,12 @@
                                     </ul>
 
                                 </div>
-
+                          </div> 
                                     <button id="plumbing-popover" type="button" style="margin-top: 20px" class="btn btn-more-services" data-container="" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Please contact us to ask if you need help with something not listed, but you feel is related. We'll let you know quickly whether we can offer the service you need or not.">
-                                    <span class="btn-bullet-1" style="color: #C2B49A">•</span>More services
+                                    <span class="btn-bullet-1" style="color: #C2B49A">•</span>More on Plumbing
                                     </button>
                                 
-                          </div> 
+                          
                    
                     </div>  
 
