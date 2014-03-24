@@ -13,7 +13,7 @@
       <meta name="viewport" content="width=device-width">
 
       <link rel="stylesheet" href="css/bootstrap.css">
-      
+
       <link rel="stylesheet" href="css/bootstrap-theme.css">
       <link rel="stylesheet" href="css/main.css">
       <link href="css/form-style.css" rel="stylesheet" type="text/css" />
@@ -45,7 +45,7 @@
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<b class="caret"></b></a>
                       <ul class="dropdown-menu">
-                        <li><a href="#woodburners">wood Burners</a></li>
+                        <li><a href="#woodburners">Wood Burners</a></li>
                         <li><a href="#heating">Heating</a></li>
                         <li><a href="#plumbing">Plumbing</a></li>
                       </ul>

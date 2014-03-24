@@ -17,12 +17,12 @@
         </div>
           
            <!-- Service buttons - start -->
-           <div style="margin-top: 10px" class="container-fluid service-btn-wrapper">
+           <div style="margin-top: 10px" class="container-fluid">
 
               
               <!--   <span class="glyphicon glyphicon-fire glyphicon-lg">
                   </span>  -->
-                  <a class="btn btn-lg woodburner-bg-color" style="margin-top: 7px; margin-left:0" href="#woodburners" >Wood Burners</a>
+                  <a class="btn btn-lg woodburner-bg-color btn-woodburner" style="margin-top: 7px; margin-left:0" href="#woodburners" >Wood Burners</a>
                    
              
 
@@ -30,7 +30,7 @@
               <!--    <span class="glyphicon glyphicon-certificate glyphicon-lg">
                   </span>  -->
                   
-                      <a class="btn btn-lg heating-bg-color btn-shadow-lg" style="margin-top: 7px" href="#heating">Heating</a>
+                      <a class="btn btn-lg heating-bg-color btn-heating" style="margin-top: 7px; margin-left:0; margin-right: 0" href="#heating">Heating</a>
                  
              
 
@@ -38,7 +38,7 @@
                <!--   <span class="glyphicon glyphicon-tint glyphicon-lg">
                   </span>   -->
                   
-                      <a class="btn btn-lg plumbing-bg-color" style="margin-top: 7px" href="#plumbing">Plumbing</a>
+                      <a class="btn btn-lg plumbing-bg-color btn-plumbing" style="margin-top: 7px" href="#plumbing">Plumbing</a>
                   
              
 
@@ -172,7 +172,10 @@
 
                                </div>     
                         </div>
-                                <button id="heating-popover" type="button" style="margin-top: 20px" class="btn btn-more-services" data-container="" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Please contact us to ask if you need help with something not listed, but you feel is related. We'll let you know quickly whether we can offer the service you need or not.">
+                                <button id="heating-popover" type="button" style="margin-top: 20px" class="btn btn-more-services" 
+                                data-container="" data-toggle="popover" data-placement="bottom" data-html="true" 
+                                data-content="Please contact us to ask if you need help with something not listed, but you feel is related. We'll let you know quickly whether we can offer the service you need or not.
+                                ">
                                 <span class="btn-bullet-1" style="color: #5FC073">•</span>More on Heating
                                 </button>
 
@@ -202,7 +205,7 @@
                                     </div>
 
 
-                                    <button id="general-plumbing-popover" type="button" style="" class="btn btn-more-services" data-container="" data-toggle="popover" data-placement="bottom" data-html="true" 
+                                    <button id="general-plumbing-popover" type="button" style="" class="btn btn-service-section" data-container="" data-toggle="popover" data-placement="bottom" data-html="true" 
 
                                     data-content="<h4><small>General:</small></h4><ul>
                                       <li>Installation of hot and cold water systems</li>
@@ -211,25 +214,25 @@
                                       <li>dishwashers, pressure sets, water tanks, ball valves, pipe work</li>
                                       <li>Installation repair and maintenance of all of the above.</li>
                                     </ul>">
-                                    <span class="btn-bullet-1" style="color: #C2B49A">•</span>General</button>
+                                    General</button>
 
 
-                                    <button id="boilers-plumbing-popover" type="button" style="" class="btn btn-more-services" data-container="" data-toggle="popover" data-placement="bottom" data-html="true" 
+                                    <button id="boilers-plumbing-popover" type="button" style="" class="btn btn-service-section" data-container="" data-toggle="popover" data-placement="bottom" data-html="true" 
 
                                     data-content="<h4><small>Boilers:</small></h4>
                                     <ul>
                                       <li>Gas and oil boiler:  Installation, commissioning, servicing and repair</li>
                                     </ul>">
-                                    <span class="btn-bullet-1" style="color: #C2B49A">•</span>Boilers</button>
+                                    Boilers</button>
 
                                     
-                                     <button id="bathrooms-plumbing-popover" type="button" style="" class="btn btn-more-services" data-container="" data-toggle="popover" data-placement="bottom" data-html="true" 
+                                     <button id="bathrooms-plumbing-popover" type="button" style="" class="btn btn-service-section" data-container="" data-toggle="popover" data-placement="bottom" data-html="true" 
 
                                     data-content="<h4><small>Bathrooms:</small></h4>
                                     <ul>
                                       <li>Full installation of bathrooms:  Including tiling, wet rooms and power showers</li>
                                     </ul>">
-                                    <span class="btn-bullet-1" style="color: #C2B49A">•</span>Bathrooms</button>
+                                    Bathrooms</button>
 
                                </div> 
                                
@@ -316,14 +319,14 @@
       <hr>
 
       <!-- CONTACT US SECTION - START  -->
-
-    <h2 class="section-heading" style="text-align: center">Contact Us</h2>
-
+    <div id="contact">
+      <h2 class="section-heading avoid-menubar" style="text-align: center">Contact Us</h2>
+    </div>
     <div class="service-container">
               
-              <div id="contact" class="left-container-services contact-bg-color" style="height: 300px">
+              <div class="left-container-services contact-bg-color" style="height: 300px">
                 
-                  <h3 class="avoid-menubar">Contact Details</h3>
+                  <h3 class="">Contact Details</h3>
               
                 <span class="col-xs-1 glyphicon glyphicon-earphone info-box-icon"></span>
                 
@@ -335,11 +338,11 @@
                         
                             <div class="services-text-box" style="padding-left: 0px">
                                 
-                                 <div>
+                                 <div >
                                     <span class="glyphicon glyphicon-earphone big-icon" style="float: left"></span>
 
                                     <div class="contact-text" style="">
-                                      <p>Choose from: 01686 688600 • 07931 875436 • 07980 840041</p>
+                                      <p class="" >01686 688600 • 07931 875436 • 07980 840041</p>
                                     </div>
                                   </div>
 
@@ -521,7 +524,34 @@
 
         <!-- END OF SERVICE AREA AND SAFETY  & QUALITY  BOXES CONTAINER  --> 
 
+<h2 class="section-heading" style="text-align: center">About Us</h2>
 
+    <div class="service-container">
+              
+              <div id="about" class="left-container-services contact-bg-color" style="height: 300px">
+                
+                  <h3 class="avoid-menubar">Who Are We?</h3>
+              
+                <span class="col-xs-1 glyphicon glyphicon-info-sign info-box-icon"></span>
+                
+              </div> 
+
+                  <div class="right-container-services contact-right-container" style="margin-bottom:0">
+                
+                        <h3 class="visible-xs service-box-header-xs contact-bg-color ">Who Are We</h3>
+                        
+                            <div class="services-text-box" style="padding-left: 0px">
+                           
+                                    <div class="about-text" style="">
+                                      
+                                      <p>Dale Warren Plumbing was established just over 25 years ago by Dale when his son, Graham, was only 10 years old. Twenty five years later and with many years experience and qualification, Graham became the “and Son” part of the business. The well known honesty and quality of work which ensured that Dale’s customers never used other plumbers again, is still the same today in its new and bigger form – Dale Warren and Son Ltd.</p>
+
+                                    </div>
+
+                            </div>
+                   
+                    </div> 
+        </div>                
     
 
       <footer>
