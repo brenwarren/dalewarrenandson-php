@@ -346,7 +346,7 @@
                                     </div>
                                   </div>
 
-                                  <div>
+                                  <div class="web-message">
                                     <span class="glyphicon glyphicon-comment big-icon" style="float: left"></span>
 
                                     <div class="contact-text" style="margin-top: 30px">
@@ -528,18 +528,18 @@
 
     <div class="service-container">
               
-              <div id="about" class="left-container-services contact-bg-color" style="height: 300px">
+              <div class="left-container-services contact-bg-color" style="height: 300px">
                 
-                  <h3 class="avoid-menubar">Who Are We?</h3>
+                  <h3>Who Are We?</h3>
               
                 <span class="col-xs-1 glyphicon glyphicon-info-sign info-box-icon"></span>
                 
               </div> 
 
                   <div class="right-container-services contact-right-container" style="margin-bottom:0">
-                
-                        <h3 class="visible-xs service-box-header-xs contact-bg-color ">Who Are We</h3>
-                        
+                      <div id="about">
+                        <h3 class="avoid-menubar visible-xs service-box-header-xs contact-bg-color ">Who Are We?</h3>
+                       </div> 
                             <div class="services-text-box" style="padding-left: 0px">
                            
                                     <div class="about-text" style="">

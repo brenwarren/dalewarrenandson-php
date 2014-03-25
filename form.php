@@ -1,18 +1,19 @@
+<?php
+session_start();
+ob_start();
+ini_set('error_reporting', 0);
+include('header.php');
+?>
+
 
 <!--  FOR THIS FORM TO WORK YOU JUST NEED :
 - THE IMAGES FOLDER WITH THE 2 FILES AHGBold.ttf and monofont.ttf
 - PLUS THE FORM.PHP AND vasplusCaptcha.PHP FILES  
 - The form-styles.css file
 -->
-
-<?php include('header.php'); ?>
-
 <div style="margin-top: 50px" class="form-wrapper">
 
-<?php
-session_start();
-ob_start();
-ini_set('error_reporting', 0);
+<?php 
 
 if(isset($_POST["submitted"]) && $_POST["submitted"] == 1)
 {
@@ -20,7 +21,7 @@ if(isset($_POST["submitted"]) && $_POST["submitted"] == 1)
     $to_email          = "brenwarren@me.com"; // Replace this email field with your email address or your company email address
     $from_fullname     = trim(strip_tags($_POST['fullname']));
     $from_email        = trim(strip_tags($_POST['email']));
-    $email_subject     = 'TESTING CAPTCHA: '.trim(strip_tags($_POST['subject']));
+    $email_subject     = 'ENQUIRY VIA DALEWARRENANDSON.COM: '.trim(strip_tags($_POST['subject']));
     $email_message     = nl2br(trim(strip_tags($_POST['message'])));
     $security_code     = trim(strip_tags($_POST['vpb_captcha_code']));
     
@@ -71,7 +72,7 @@ if(isset($_POST["submitted"]) && $_POST["submitted"] == 1)
             if ($vasplus_mailer_delivers_greatly) 
              {
                 //Displays the success message when email message is sent
-                  $submission_status = "<div align='left' class='vpb_success'>Congrats $from_fullname, your email message has been sent successfully!<br>We will get back to you as soon as possible. Thanks.</div>";
+                  $submission_status = "<div align='left' class='vpb_success'>Thankyou $from_fullname, your email message has been sent successfully!<br>We will get back to you as soon as possible.</div>";
              } 
              else 
              {

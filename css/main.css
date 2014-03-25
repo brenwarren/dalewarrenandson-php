@@ -40,13 +40,14 @@ h2.tagline {
 }
 
 .tagline-box {
-  background:rgba(255,255,255, 0.9);
-  /*background-color: rgba(236, 240, 241,0.9);
+  background-color: rgba(236, 240, 241,1);
+  /*background:rgba(255,255,255, 0.9);
+  background-color: rgba(236, 240, 241,0.9);
   background-color: rgba(44, 62, 80,0.95); */
 	 font-size: 1em;
   color: #ecf0f1;
   text-align: center;
-  padding-top: 5px;
+  padding-top: 20px;
   padding-bottom: 20px;
 
    -webkit-border-radius: 0 0 5px 5px;
@@ -68,7 +69,8 @@ border-radius: 0 0 5px 5px;
 }
 
 .header-bg-img {
-	background-image: url("../inc/img/copper-piping.jpg");
+  background-color: #fff;
+	/*background-image: url("../inc/img/copper-piping.jpg"); */
 	
 	background-size: cover;
   padding-top: 1px;
@@ -80,16 +82,6 @@ border-radius: 0 0 5px 5px;
   min-height: 300px;
   background-size: cover;
 }
-
-.opaque-box-header  /* used for small displays only since blur background for
-other displays requires Fixed property which interferes with small display nav menu */
-  {
-  background-color:#95A5A6;
-  opacity:0.8;
-  filter:alpha(opacity=60); /* For IE8 and earlier */
-  text-align: end;
-  border-radius:5px;
-  }
 
 
 /* background blur not used now.. it was not effective enough 
@@ -233,6 +225,13 @@ border-radius: 5px 0 0 5px;
 /*CHANGES FOR ALL SCREENS EXCEPT EXTRA SMALL SCREENS */
 @media (min-width: 768px) {
 
+      body {
+        padding-left: 150px;
+      padding-right: 150px;
+      margin-right: 0px;
+      margin-left: 0px;
+      }
+
       .header-bg-img {
       min-height: 300px;
     }
@@ -288,14 +287,6 @@ border-radius: 5px 0 0 5px;
       margin-top: 0;
     }
 
-    
-
-    /* ADDS BODY PADDING LEFT AND RIGHT FOR BIGGER SCREENS*/
-    body {
-      padding-left: 150px;
-      padding-right: 150px;
-    }
-
     .service-well {
       margin-right: 50px;
       margin-bottom: 10px;
@@ -320,9 +311,14 @@ border-radius: 5px 0 0 5px;
       border-radius: 5px 5px 5px 5px;
     }
 
+    body {
+  
+      padding-right: -20px;
+    }
+
     .jumbotron {
-      padding-left: 5px;
-      padding-right: 5px;
+      padding-left: 0px;
+      padding-right: 0px;
     }
 
     .header-bg-img {
@@ -401,6 +397,13 @@ border-radius: 5px 0 0 5px;
       margin-bottom: 5px;
     }
 
+    .web-message {
+      display: none !important;
+    }
+
+    .btn-lg {
+      font-size: 0.6em;
+    }
 
 
 

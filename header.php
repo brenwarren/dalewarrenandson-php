@@ -30,30 +30,47 @@
         <![endif]-->
      <header>  
         <div class="navbar navbar-inverse navbar-fixed-top">
-          <div class="container">
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand" href="index.php">Dale Warren &amp; Son Ltd</a>
+                <div class="container hidden-xs">
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.php">Dale Warren &amp; Son Ltd</a>
+                      </div>
+                      <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                          <li class="active"><a href="index.php">Home</a></li>
+                          <li class="dropdown hidden-xs">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                              <li><a href="#woodburners">Wood Burners</a></li>
+                              <li><a href="#heating">Heating</a></li>
+                              <li><a href="#plumbing">Plumbing</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#about">About</a></li>
+                          <li><a href="#contact">Contact</a></li>
+                        </ul>
+                      </div><!--/.navbar-collapse -->
                 </div>
-                <div class="navbar-collapse collapse">
-                  <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.php">Home</a></li>
-                    <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<b class="caret"></b></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#woodburners">Wood Burners</a></li>
-                        <li><a href="#heating">Heating</a></li>
-                        <li><a href="#plumbing">Plumbing</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                  </ul>
-                </div><!--/.navbar-collapse -->
-          </div>
+
+
+                <div class="container visible-xs">
+                      <div class="navbar-header">
+                        
+                        <a class="navbar-brand" href="index.php">Dale Warren &amp; Son Ltd</a>
+                      </div>
+                      
+                        <div style="margin-bottom:5px">
+                          <button class"btn btn-service-section" ><a href="index.php">Home</a></button>
+                          <button class"btn btn-service-section" ><a href="#about" style="margin-left: 10px; margin-right:10px">About</a></button>
+                          <button class"btn btn-service-section" ><a href="#contact">Contact</a></button>
+                        </div>
+                      
+                </div>
+
+
         </div>
     </header>  
