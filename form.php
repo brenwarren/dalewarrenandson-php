@@ -18,10 +18,10 @@ include('header.php');
 if(isset($_POST["submitted"]) && $_POST["submitted"] == 1)
 {
     //Read POST request params into global vars
-    $to_email          = "brenwarren@me.com"; // Replace this email field with your email address or your company email address
+    $to_email          = "info@dalewarrenandson.com"; // Replace this email field with your email address or your company email address
     $from_fullname     = trim(strip_tags($_POST['fullname']));
     $from_email        = trim(strip_tags($_POST['email']));
-    $email_subject     = 'ENQUIRY VIA DALEWARRENANDSON.COM: '.trim(strip_tags($_POST['subject']));
+    $email_subject     = 'ENQUIRY VIA WEBSITE: '.trim(strip_tags($_POST['subject']));
     $email_message     = nl2br(trim(strip_tags($_POST['message'])));
     $security_code     = trim(strip_tags($_POST['vpb_captcha_code']));
     

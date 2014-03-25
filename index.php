@@ -4,7 +4,7 @@
 
     <!--  START OF Main jumbotron header section -->
     
-    <div class="jumbotron header-bg-img" style="padding-bottom: 0px" >
+    <div class="jumbotron header-bg-img" style="padding-bottom: 5px" >
       <div class="container-fluid" style="padding-bottom: 0px">
 
          
@@ -16,32 +16,34 @@
             </h1>
         </div>
           
-           <!-- Service buttons - start -->
-           <div style="margin-top: 10px" class="container-fluid">
+          <!-- BEGIN OF SMALL IMAGES ALONGSIDE SERVICE BUTTONS -->
 
-              
+            <div class="header-img-wrapper">
+                <img src="inc/img/radiator-and-panel-thermostat.jpg" alt="Radiator with modern digital wall panel" class="small-header-img">
+                <img src="inc/img/walk-in-shower-in-a-modern-bathroom.jpg" alt="Modern bathroom with walkin shower" class="small-header-img">
+                <img src="inc/img/solar-panels-on-roof.jpg" alt="Solar panels on a roof" class="small-header-img hide-img-xs">
+                <img src="inc/img/industrial-boiler-room.jpg" alt="Inside of large boiler room showing lots of complicated industrial sized pipework and a couple of boiler cylinders and pumps" class="small-header-img">
+                <img src="inc/img/woodburner-and-logs.jpg" alt="Cosy cast iron woodburner and pile of logs" class="small-header-img hide-img-xs">
+
+            </div>
+
+
+           <!-- Service buttons - start -->
+           <div style="" class="container-fluid">
+
               <!--   <span class="glyphicon glyphicon-fire glyphicon-lg">
                   </span>  -->
-                  <a class="btn btn-lg woodburner-bg-color btn-woodburner" style="margin-top: 7px; margin-left:0" href="#woodburners" >Wood Burners</a>
-                   
-             
-
-              
+                  <a class="btn btn-lg woodburner-bg-color btn-woodburner" style="margin-top: 3px" href="#woodburners" >Wood Burners</a>
+                
               <!--    <span class="glyphicon glyphicon-certificate glyphicon-lg">
                   </span>  -->
                   
-                      <a class="btn btn-lg heating-bg-color btn-heating" style="margin-top: 7px; margin-left:0; margin-right: 0" href="#heating">Heating</a>
-                 
-             
-
-             
-               <!--   <span class="glyphicon glyphicon-tint glyphicon-lg">
+                  <a class="btn btn-lg heating-bg-color btn-heating" style="margin-top: 3px; margin-left:0; margin-right: 0" href="#heating">Heating</a>
+                   <!--   <span class="glyphicon glyphicon-tint glyphicon-lg">
                   </span>   -->
                   
-                      <a class="btn btn-lg plumbing-bg-color btn-plumbing" style="margin-top: 7px" href="#plumbing">Plumbing</a>
-                  
-             
-
+                  <a class="btn btn-lg plumbing-bg-color btn-plumbing" style="margin-top: 3px" href="#plumbing">Plumbing</a>
+           
           </div>
 
 <!--
@@ -73,6 +75,8 @@
 
         </div> 
 -->
+
+            
        
       </div>
     </div>
@@ -342,7 +346,7 @@
                                     <span class="glyphicon glyphicon-earphone big-icon" style="float: left"></span>
 
                                     <div class="contact-text" style="">
-                                      <p class="" >01686 688600 • 07931 875436 • 07980 840041</p>
+                                      <a class="" href="tel:01686688600">01686 688600</a> • <a class="" href="tel:07931875436">07931 875436</a> • <a class="" href="tel:07980840041">07980 840041</a>
                                     </div>
                                   </div>
 
@@ -358,7 +362,7 @@
                                     <span class="glyphicon glyphicon-envelope big-icon" style="float: left"></span>
 
                                     <div class="contact-text" style="margin-top: 30px">
-                                      <p><a href="mailto:hello@dalewarrenandson.com?Subject=Enquiry&nbsp;regarding&#58;" target="_top">Send us an Email</a></p>
+                                      <p><a href="mailto:info@dalewarrenandson.com?Subject=Enquiry&nbsp;regarding&#58;" target="_top">Send us an Email</a></p>
                                     </div>
                                   </div>
                               

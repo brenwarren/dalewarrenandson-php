@@ -15,6 +15,7 @@
 
 h2.section-heading {
   line-height: 150%;
+  font-weight: 200;
 }
 
 .header-text {
@@ -112,13 +113,14 @@ border-radius: 0 0 5px 5px;
 
 */
 
-.contact-btn {
-  
-  margin-top: 10px;
+.header-img-wrapper {
+  float: right;
+  margin-top: 7px;
+  margin-bottom: 3px;
 }
-
-.contact-btn:hover {
-  font-weight: 500;
+.small-header-img {
+  width: 100px;
+  height: 70px;
 }
 
 .btn-lg {
@@ -129,26 +131,26 @@ border-radius: 0 0 5px 5px;
 }
 
 .btn-woodburner {
-     -webkit-border-radius: 5px 5px 5px 5px;
--moz-border-radius: 5px 5px 5px 5px;
--ms-border-radius: 5px 5px 5px 5px;
--o-border-radius: 5px 5px 5px 5px;
+     -webkit-border-radius: 5px 0 0 5px;
+-moz-border-radius: 5px 0 0 5px;
+-ms-border-radius: 5px 0 0 5px;
+-o-border-radius: 5px 0 0 5px;
 border-radius: 5px 0 0 5px;
 }
 
 .btn-heating {
-     -webkit-border-radius: 5px 5px 5px 5px;
--moz-border-radius: 5px 5px 5px 5px;
--ms-border-radius: 5px 5px 5px 5px;
--o-border-radius: 5px 5px 5px 5px;
+     -webkit-border-radius: 0 0 0 0;
+-moz-border-radius: 0 0 0 0;
+-ms-border-radius: 0 0 0 0;
+-o-border-radius: 0 0 0 0;
 border-radius: 0 0 0 0;
 }
 
 .btn-plumbing {
-     -webkit-border-radius: 5px 5px 5px 5px;
--moz-border-radius: 5px 5px 5px 5px;
--ms-border-radius: 5px 5px 5px 5px;
--o-border-radius: 5px 5px 5px 5px;
+     -webkit-border-radius: 0 5px 5px 0;
+-moz-border-radius: 0 5px 5px 0;
+-ms-border-radius: 0 5px 5px 0;
+-o-border-radius: 0 5px 5px 0;
 border-radius:  0 5px 5px 0;
 }
 
@@ -226,14 +228,14 @@ border-radius: 5px 0 0 5px;
 @media (min-width: 768px) {
 
       body {
-        padding-left: 150px;
-      padding-right: 150px;
+        padding-left: 50px;
+      padding-right: 50px;
       margin-right: 0px;
       margin-left: 0px;
       }
 
       .header-bg-img {
-      min-height: 300px;
+      min-height: 283px;
     }
 
     /* ADDS ROUNDED CORNERS TO RIGHT HAND SIDE OF MAIN BOXES*/
@@ -292,11 +294,18 @@ border-radius: 5px 0 0 5px;
       margin-bottom: 10px;
       padding: 10px 10px 10px 0;
     }
+
+    .avoid-menubar {
+      padding-top: 80px;
+      margin-top: -80px;
+}
 }
 
 /*CHANGES FOR ALL EXTRA SMALL SCREENS */
 
 @media (max-width: 767px) {
+
+
 
       /* ADDS ROUNDED CORNERS TO ALL FOR CORNERS OF MAIN BOXES 
     FOR EXTRA SMALL SCREENS BECAUSE THE LEFT HAND COLOURED BOX
@@ -325,6 +334,23 @@ border-radius: 5px 0 0 5px;
       min-height: 250px;
     }
 
+/*  THIS HELPS CENTER THE IMAGES ON XS SCREENS */
+    .header-img-wrapper {
+      margin-right: 5px;
+    }
+
+    .btn-woodburner {
+      margin-left: 5px;
+    }
+
+    .hide-img-xs {
+      display: none !important;
+    }
+
+        .avoid-menubar {
+      padding-top: 170px;
+      margin-top: -170px;
+}
     
     
 
@@ -388,9 +414,13 @@ border-radius: 5px 0 0 5px;
       margin-bottom: 20px;
     }
     
+    /* this helps remove signs of the well for xs screens without 
+    removing the whole div itself. Without doing this the site can look
+    a little stripey*/
     .service-well {
-      margin-right: 0;
-      padding: 10px 10px 10px 0;
+      background-image: none;
+      border: none;
+      background-color: inherit;
     }
 
     .btn-more-services {
@@ -492,7 +522,7 @@ border-radius: 5px 0 0 5px;
   background-color: rgba(236, 240, 241,1);
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 1.2em;
+  font-size: 1.1em;
  
 
 }
@@ -549,10 +579,6 @@ border-radius: 5px 0 0 5px;
   
 }
 
-.avoid-menubar {
-  padding-top: 80px;
-  margin-top: -80px;
-}
 
 .contact-right-container {
   background-color: #fff;

@@ -64,9 +64,9 @@
                       </div>
                       
                         <div style="margin-bottom:5px">
-                          <button class"btn btn-service-section" ><a href="index.php">Home</a></button>
-                          <button class"btn btn-service-section" ><a href="#about" style="margin-left: 10px; margin-right:10px">About</a></button>
-                          <button class"btn btn-service-section" ><a href="#contact">Contact</a></button>
+                          <a href="index.php">Home</a>
+                         <a href="#about" style="margin-left: 10px; margin-right:10px">About</a>
+                         <a href="#contact">Contact</a>
                         </div>
                       
                 </div>
