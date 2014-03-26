@@ -37,6 +37,10 @@ h1.tagline {
   text-align: center;
 }
 
+h1.top-tagline {
+  text-align: left;
+}
+
 h2.tagline {
    font-size: 1.3em; 
   font-weight: 200; 
@@ -379,7 +383,7 @@ border-radius: 5px 0 0 5px;
 
     .header-bg-img {
       min-height: 350px;
-      background-position: 97% 12%;
+      background-position: 97% 14%;
     }
 
 /*  THIS HELPS CENTER THE IMAGES ON XS SCREENS */
@@ -388,12 +392,30 @@ border-radius: 5px 0 0 5px;
     }
 
     .tagline {
-      margin-top: 30px;
+      margin-top: 35px;
+    }
+
+    h1.tagline {
+      font-size: 0.9em; 
+    }
+
+    h1.top-tagline{
+      text-align: center;
+    }
+
+    .tagline-box {
+      font-size: 0.8em;
+      margin-left: 0px;
+      margin-top: 68px;
+      padding-top: 5px;
+
     }
 
 
     .btn-woodburner {
-         
+    margin-top: 3px;
+     padding-left: 5px;
+    padding-right: 5px;
     }
 
     .btn-heating {
@@ -401,15 +423,15 @@ border-radius: 5px 0 0 5px;
     margin-top: 3px; 
     margin-left:0; 
     margin-right: 0; 
-    padding-left: 33px;
-    padding-right: 33px;
+    padding-left: 22px;
+    padding-right: 23px;
     }
 
     .btn-plumbing {
 
     margin-top: 3px; 
-    padding-left: 29px;
-    padding-right: 29px;
+    padding-left: 18px;
+    padding-right: 19px;
     }
 
     .hide-img-xs {
@@ -448,13 +470,7 @@ border-radius: 5px 0 0 5px;
     }
 
 
-    .tagline-box {
-      font-size: 0.8em;
-      margin-left: 0px;
-      margin-top: 58px;
-      padding-top: 10px;
-
-    }
+    
 
     .header-text {
       display: none !important;

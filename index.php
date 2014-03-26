@@ -8,7 +8,7 @@
       <div class="container-fluid" style="padding-bottom: 0px">
 
         <p class="header-text">Dale Warren &amp; Son</p>
-        <h1 class="tagline" style="text-align: left">Plumbers &amp; Heating Installers Mid-Wales</h1>
+        <h1 class="tagline top-tagline" style="">Plumbers &amp; Heating Installers Mid-Wales</h1>
         
         <div class="tagline-box">
               <h1 class="tagline">Gas Safe • HETAS • OFTEC registered<br><br>
