@@ -9,11 +9,16 @@
 
          
         <div class="tagline-box">
+          
+        
             <p class="header-text">Dale Warren &amp; Son</p>
-            <h1 class="tagline">Registered Plumbers &amp; Heating Installers Mid-Wales<br>
+            <h1 class="tagline">Plumbers &amp; Heating Installers Mid-Wales<br><br>
+              Gas Safe • HETAS • OFTEC registered<br>
+              <img src="inc/img/oftec_hetas_gassafe_trans2.png" alt="Small image of logos for oftec hetas gas safe in a row" class="registered-logo"><br>
               Domestic &amp; Commercial</h1>
             <h1 style="font-size: 1em; font-weight: 200; color: #7f8c8d">Burners (Wood • Gas • Oil) • Fires • Solar • Biomass
             </h1>
+          
         </div>
           
           <!-- BEGIN OF SMALL IMAGES ALONGSIDE SERVICE BUTTONS -->

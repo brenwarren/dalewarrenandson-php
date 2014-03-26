@@ -63,7 +63,7 @@
                         <a class="navbar-brand" href="index.php">Dale Warren &amp; Son Ltd</a>
                       </div>
                       
-                        <div style="margin-bottom:5px">
+                        <div style="margin-bottom:5px; font-size: 1.1em">
                           <a href="index.php">Home</a>
                          <a href="#about" style="margin-left: 10px; margin-right:10px">About</a>
                          <a href="#contact">Contact</a>

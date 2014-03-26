@@ -24,6 +24,7 @@ h2.section-heading {
   font-size: 1.5em;
   color: #A3C737;
 	text-align: center; 
+  margin-bottom: 0px;
   
 
 }
@@ -39,6 +40,7 @@ h2.tagline {
   font-weight: 200; 
   color: #7f8c8d;
 }
+
 
 .tagline-box {
   background-color: rgba(236, 240, 241,1);
@@ -62,6 +64,8 @@ border-radius: 0 0 5px 5px;
 .bren-bg-color-1 {
   background-color: rgba(44, 62, 80,0.95);
 }
+
+
 
 .glyphicon-lg {
 	font-size: 1.5em;
@@ -118,6 +122,13 @@ border-radius: 0 0 5px 5px;
   margin-top: 7px;
   margin-bottom: 3px;
 }
+
+.registered-logo {
+  width: 150px;
+  height: 100px;
+
+}
+
 .small-header-img {
   width: 100px;
   height: 70px;
@@ -235,7 +246,11 @@ border-radius: 5px 0 0 5px;
       }
 
       .header-bg-img {
-      min-height: 283px;
+      min-height: 403px;
+    }
+
+        .tagline {
+      margin-top: 0;
     }
 
     /* ADDS ROUNDED CORNERS TO RIGHT HAND SIDE OF MAIN BOXES*/
@@ -337,6 +352,10 @@ border-radius: 5px 0 0 5px;
 /*  THIS HELPS CENTER THE IMAGES ON XS SCREENS */
     .header-img-wrapper {
       margin-right: 5px;
+    }
+
+    .tagline {
+      margin-top: 20px;
     }
 
     .btn-woodburner {
