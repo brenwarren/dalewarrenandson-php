@@ -8,7 +8,7 @@
       <div class="container-fluid" style="padding-bottom: 0px">
 
         <p class="header-text">Dale Warren &amp; Son</p>
-        <h1 class="tagline" style="text-align: center">Plumbers &amp; Heating Installers Mid-Wales</h1>
+        <h1 class="tagline" style="text-align: left">Plumbers &amp; Heating Installers Mid-Wales</h1>
         
         <div class="tagline-box">
               <h1 class="tagline">Gas Safe • HETAS • OFTEC registered<br><br>
@@ -35,16 +35,16 @@
 
               <!--   <span class="glyphicon glyphicon-fire glyphicon-lg">
                   </span>  -->
-                  <a class="btn btn-lg woodburner-bg-color btn-woodburner" style="margin-top: 3px" href="#woodburners" >Wood Burners</a>
+                  <a class="btn btn-lg woodburner-bg-color btn-woodburner" style="" href="#woodburners" >Wood Burners</a>
                 
               <!--    <span class="glyphicon glyphicon-certificate glyphicon-lg">
                   </span>  -->
                   
-                  <a class="btn btn-lg heating-bg-color btn-heating" style="margin-top: 3px; margin-left:0; margin-right: 0" href="#heating">Heating</a>
+                  <a class="btn btn-lg heating-bg-color btn-heating" style="" href="#heating">Heating</a>
                    <!--   <span class="glyphicon glyphicon-tint glyphicon-lg">
                   </span>   -->
                   
-                  <a class="btn btn-lg plumbing-bg-color btn-plumbing" style="margin-top: 3px" href="#plumbing">Plumbing</a>
+                  <a class="btn btn-lg plumbing-bg-color btn-plumbing" style="" href="#plumbing">Plumbing</a>
            
           </div>
 
