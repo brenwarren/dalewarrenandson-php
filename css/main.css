@@ -25,6 +25,7 @@ h2.section-heading {
   color: #A3C737;
 	text-align: center; 
   margin-bottom: 0px;
+  margin-top: 15px;
   
 
 }
@@ -74,10 +75,12 @@ border-radius: 0 0 5px 5px;
 }
 
 .header-bg-img {
-  background-color: #fff;
+  background: url("../inc/img/oftec_hetas_gassafe_trans2.png") ,#fff;
 	/*background-image: url("../inc/img/copper-piping.jpg"); */
 	
-	background-size: cover;
+	background-size: 150px 100px, cover;
+  background-repeat: no-repeat;
+  background-position: 97% 2%;
   padding-top: 1px;
   padding-bottom: 20px;
 }
