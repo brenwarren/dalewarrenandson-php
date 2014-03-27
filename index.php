@@ -380,7 +380,16 @@
     <!-- END OF CONTACT US SECTION-->
 
 
-  <!-- START OF SERVICE AREA AND SAFETY  & QUALITY  BOXES CONTAINER  --> 
+    <!-- START OF ABOUT US SECTION-->
+  
+<h2 class="section-heading" style="text-align: center">About Us</h2>
+
+
+
+    <div class="service-container">
+
+
+<!-- START OF SERVICE AREA AND SAFETY  & QUALITY  BOXES CONTAINER  --> 
 
       <div class="container-fluid row" style="">
 
@@ -530,9 +539,7 @@
 
         <!-- END OF SERVICE AREA AND SAFETY  & QUALITY  BOXES CONTAINER  --> 
 
-<h2 class="section-heading" style="text-align: center">About Us</h2>
 
-    <div class="service-container">
               
               <div class="left-container-services contact-bg-color" style="height: 300px">
                 
@@ -559,6 +566,7 @@
                     </div> 
         </div>                
     
+<!-- END OF ABOUT US SECTION-->
 
       <footer>
         <p>&copy; Dale Warren &amp; Son LTD 2014</p>
