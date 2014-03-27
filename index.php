@@ -451,7 +451,7 @@
 
             <h5>Based in Newtown, Powys, Mid Wales.
               <small><br>Also covering the following areas:</small></h5>
-            <p>Llanindloes, Welshpool, Montgomery, Llanfair Caereinion, Shrewsbury.</p>
+            <p>Llanidloes, Welshpool, Montgomery, Llanfair Caereinion, Shrewsbury.</p>
 
             <!-- pop over for tip on service area coverage -->
 
