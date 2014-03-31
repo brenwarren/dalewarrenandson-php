@@ -7,7 +7,7 @@
     <div class="jumbotron header-bg-img" style="padding-bottom: 5px" >
       <div class="container-fluid" style="padding-bottom: 0px">
 
-        <p class="header-text">Dale Warren &amp; Son</p>
+        <p id="top" class="header-text avoid-menubar">Dale Warren &amp; Son</p>
         <h1 class="tagline top-tagline" style="">Plumber &amp; Heating Services in Powys</h1>
         
         <div class="tagline-box">
@@ -100,7 +100,7 @@
 
                         <div class="left-container-services woodburner-bg-color" style="">
                           
-                            <h3 class="avoid-menubar">Wood Burners</h3>
+                            <h3>Wood Burners</h3>
                         
                           <span class="col-xs-1 glyphicon glyphicon-fire info-box-icon"></span>
                           
@@ -113,9 +113,9 @@
                                       <div class="services-text-box">
 
                                           <div class="well service-well">
-                                              <div id="woodburners">
-                                                  <h4 class="avoid-menubar" style="text-indent: 1em; color: #7f8c8d">Wood Fires and Burners</h4>
-                                              </div>
+                                             
+                                                  <h4 id="woodburners" class="avoid-menubar" style="text-indent: 1em; color: #7f8c8d">Wood Fires and Burners</h4>
+                                              
                                               <ul>
                                                 <li>Sourcing and installing</li>  
                                                 <li>Flue liner installation</li>
@@ -155,9 +155,8 @@
 
                               <div class="well service-well">
 
-                                  <div id="heating">
-                                    <h4 class="avoid-menubar" style="text-indent: 1em; color: #7f8c8d">General Heating</h4>
-                                  </div>
+                                    <h4 id="heating" class="avoid-menubar" style="text-indent: 1em; color: #7f8c8d">General Heating</h4>
+                                  
                                    <ul>    
                                       <li>Gas, Oil, wood or coal heating systems and fires</li>
                                       <li>Full central heating systems installation</li>
@@ -206,10 +205,8 @@
 
                                 <div class="well service-well">
 
-                                    <div id="plumbing">
-                                      <h4 class="avoid-menubar" style="text-indent: 1em; color: #7f8c8d">Domestic Plumbing</h4>
-                                    </div>
-
+                                      <h4 id="plumbing" class="avoid-menubar" style="text-indent: 1em; color: #7f8c8d">Domestic Plumbing</h4>
+                                   
 
                                     <button id="general-plumbing-popover" type="button" style="" class="btn btn-service-section" data-container="" data-toggle="popover" data-placement="bottom" data-html="true" 
 
@@ -325,9 +322,9 @@
       <hr>
 
       <!-- CONTACT US SECTION - START  -->
-    <div id="contact">
-      <h2 class="section-heading avoid-menubar" style="text-align: center">Contact Us</h2>
-    </div>
+    
+      <h2 id="contact" class="section-heading avoid-menubar" style="text-align: center">Contact Us</h2>
+    
     <div class="service-container">
               
               <div class="left-container-services contact-bg-color" style="height: 300px">
@@ -382,7 +379,7 @@
 
     <!-- START OF ABOUT US SECTION-->
   
-<h2 class="section-heading" style="text-align: center">About Us</h2>
+<h2 id="about" class="section-heading avoid-menubar" style="text-align: center">About Us</h2>
 
 
 
@@ -550,9 +547,9 @@
               </div> 
 
                   <div class="right-container-services contact-right-container" style="margin-bottom:0">
-                      <div id="about">
-                        <h3 class="avoid-menubar visible-xs service-box-header-xs contact-bg-color ">Who Are We?</h3>
-                       </div> 
+                      
+                        <h3 class="visible-xs service-box-header-xs contact-bg-color ">Who Are We?</h3>
+                       
                             <div class="services-text-box" style="padding-left: 0px">
                            
                                     <div class="about-text" style="">
