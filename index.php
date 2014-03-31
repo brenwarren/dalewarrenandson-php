@@ -8,7 +8,7 @@
       <div class="container-fluid" style="padding-bottom: 0px">
 
         <p id="top" class="header-text avoid-menubar">Dale Warren &amp; Son</p>
-        <h1 class="tagline top-tagline" style="">Plumber &amp; Heating Services in Powys</h1>
+        <h1 class="tagline top-tagline" style="">Plumbing &amp; Heating Services in Powys</h1>
         
         <div class="tagline-box">
               <h1 class="tagline">Gas Safe • HETAS • OFTEC registered<br><br>
