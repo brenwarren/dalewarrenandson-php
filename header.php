@@ -8,7 +8,7 @@
     <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Plumbers &amp; Heating Installers Newtown Powys Midwales</title>
+      <title>Plumber &amp; Heating Installers Newtown Powys Midwales</title>
       <meta name="description" content="Registered Plumbers and Heating Installers. WOOD - GAS - OIL - BURNERS - FIRES. Installation &amp; Modifications.">
       <meta name="viewport" content="width=device-width">
 
