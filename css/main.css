@@ -10,6 +10,7 @@
     padding-bottom: 20px;
     color: #34495e; 
     background-color: #e8e8e8;
+    width: 100%;
 }
 
 
@@ -85,7 +86,7 @@ border-radius: 0 0 5px 5px;
 	
 	background-size: 170px 100px, cover;
   background-repeat: no-repeat;
-  background-position: 97% 2%;
+  background-position: 98% 0%;
   padding-top: 1px;
   padding-bottom: 20px;
 }
@@ -374,6 +375,7 @@ border-radius: 5px 0 0 5px;
     body {
   
       padding-right: -20px;
+      width: 100%;
     }
 
     .jumbotron {

@@ -54,7 +54,8 @@
                       </div>
                       <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
-                          <li class="active"><a href="#top">Home</a></li>
+                          
+                          <li class="active"><a href="#top">Top</a></li>
                           <li class="dropdown hidden-xs">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<b class="caret"></b></a>
                             <ul class="dropdown-menu">
