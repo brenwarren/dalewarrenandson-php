@@ -6,6 +6,7 @@
 <html class="no-js"> 
 <!--<![endif]-->
     <head>
+      <meta name="msvalidate.01" content="4D0F94A9BFEFD5273982E6F19725EC50" />
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <title>Plumber &amp; Heating Installers Newtown Powys Midwales</title>
