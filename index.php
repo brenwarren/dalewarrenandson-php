@@ -11,10 +11,10 @@
         <h1 class="tagline top-tagline" style="">Plumbing &amp; Heating Services in Powys</h1>
         
         <div class="tagline-box">
-              <h1 class="tagline">Gas Safe • HETAS • OFTEC registered<br><br>
-              Domestic &amp; Commercial</h1>
-            <h1 style="font-size: 1em; font-weight: 200; color: #7f8c8d">Burners (Wood • Gas • Oil) • Fires • Solar • Biomass
-            </h1>
+              <h2 class="tagline" style="font-size: 1em; font-weight: 200; color: #7f8c8d">Gas Safe • HETAS • OFTEC registered<br><br>
+              Domestic &amp; Commercial</h2>
+            <h2 style="font-size: 1em; font-weight: 200; color: #7f8c8d">Burners (Wood • Gas • Oil) • Fires • Solar • Biomass
+            </h2>
           
         </div>
           
