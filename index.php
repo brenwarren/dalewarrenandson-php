@@ -1,15 +1,18 @@
 <!DOCTYPE html>
+<!-- Microdata markup added by Google Structured Data Markup Helper. -->
 
 <?php include('header.php'); ?>
 
     <!--  START OF Main jumbotron header section -->
     
-    <div class="jumbotron header-bg-img" style="padding-bottom: 5px" >
+    <span itemscope itemtype="http://schema.org/LocalBusiness">
+      <div class="jumbotron header-bg-img" style="padding-bottom: 5px" >
       <div class="container-fluid" style="padding-bottom: 0px">
 
+        <span itemprop="name">
         <p id="top" class="header-text avoid-menubar">Dale Warren &amp; Son</p>
         <h1 class="tagline top-tagline" style="">Plumbing &amp; Heating Services in Powys</h1>
-        
+    </span>   
         <div class="tagline-box">
               <h2 class="tagline" style="font-size: 1em; font-weight: 200; color: #7f8c8d">Gas Safe • HETAS • OFTEC registered<br><br>
               Domestic &amp; Commercial</h2>
@@ -344,7 +347,7 @@
                                  <div >
                                     <span class="glyphicon glyphicon-earphone big-icon" style="float: left"></span>
 
-                                    <div class="contact-text" style="">
+                                    <div itemprop="telephone" class="contact-text" style="">
                                       <a class="" href="tel:01686688600">01686 688600</a> • <a class="" href="tel:07931875436">07931 875436</a> • <a class="" href="tel:07980840041">07980 840041</a>
                                     </div>
                                   </div>
@@ -446,7 +449,7 @@
 
             -->
 
-            <h5>Based in Newtown, Powys, Mid Wales.
+            <h5 itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Based in Newtown, Powys, Mid Wales</span>.
               <small><br>Also covering the following areas:</small></h5>
             <p>Llanidloes, Welshpool, Montgomery, Llanfair Caereinion, Shrewsbury.</p>
 
@@ -564,6 +567,8 @@
         </div>                
     
 <!-- END OF ABOUT US SECTION-->
+
+</span>  <!--  END OF THE GOOGLE GOOGLE MICRODATA MARKUP starts on line 8-->
 
       <footer>
         <p>&copy; Dale Warren &amp; Son LTD 2014</p>
