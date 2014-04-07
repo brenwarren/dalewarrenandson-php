@@ -1,0 +1,293 @@
+/*
+ * Copyright 2013 Sean Proctor
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+body {
+  margin: 0 2em;
+  padding: 0;
+}
+
+.phpc-title {
+  text-align: center;
+  font-size: 2em !important;
+  margin: .6em auto;
+  padding: .3em;
+}
+
+.phpc-title a {
+  text-decoration: none;
+}
+
+.php-calendar h2 {
+  text-align: center;
+}
+
+.phpc-bar {
+  margin: .6em auto;
+  text-align: center;
+  padding: .3em;
+}
+
+.phpc-bar a {
+  margin: 0 .25em;
+  text-decoration: none;
+}
+
+.php-calendar a:hover {
+  opacity: .7;
+  filter:Alpha(Opacity=70);
+}
+
+.php-calendar a.ui-state-default,
+.php-calendar .ui-state-default a {
+  opacity: 1;
+  filter:Alpha(Opacity=100);
+}
+
+.php-calendar table {
+  border-collapse: collapse;
+  margin-bottom: 0.6em;
+}
+
+.php-create-category {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.php-calendar h2 {
+  text-align: left;
+  margin: 0;
+  padding: .3em; 
+}
+
+.phpc-event-header {
+  padding: .3em;
+}
+
+.phpc-event li a {
+  text-decoration: none;
+}
+
+.phpc-desc p {
+  padding: .3em;
+  text-align: justify;
+}
+
+.php-calendar caption {
+  font-weight: bolder;
+}
+
+col.phpc-week {
+  width: 3%;
+}
+
+col.phpc-day {
+  width: 14%;
+}
+
+.php-calendar td, .php-calendar th {
+  border-collapse: collapse;
+  vertical-align: text-top;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.php-calendar thead td, .php-calendar thead th, table.phpc-container td,
+    table.phpc-container th {
+  padding: .3em;
+}
+
+.phpc-container {
+  min-width: 50%;
+}
+
+.php-calendar td {
+  text-align: left;
+}
+
+table.phpc-month-view {
+  width: 100%;
+  margin: .6em 0;
+}
+
+table.phpc-month-view td {
+  padding: 0;
+  height: 100px;
+  vertical-align: top;
+}
+
+.php-calendar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.phpc-event-list li {
+  margin: 4px;
+}
+
+.phpc-event-list li a {
+  padding: .3em;
+  font-weight: normal !important;
+  display: block;
+  text-decoration: none;
+}
+
+.phpc-event-time {
+  border: 1px dotted;
+  padding: 0 0.25em;
+}
+
+.phpc-month-title {
+  text-align: center;
+}
+
+.phpc-sub-title {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: .6em;
+  border-style: none !important;
+}
+
+a.phpc-add {
+  float: right;
+  padding: 0;
+  font-size: .5em !important;
+}
+
+#phpc-summary-view {
+  display: none;
+  position: absolute;
+  width: 300px;
+  max-height: 250px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#phpc-summary-head {
+  border-bottom: 1px solid;
+  padding: 5px;
+}
+
+#phpc-summary-body {
+  padding: 5px;
+}
+
+/* form sub-tables */
+.form table {
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+}
+
+/* this is not for thead. add another entry for that if we create a heading
+   for forms */
+.form th, .phpc-form th {
+  text-align: right;
+  vertical-align: middle;
+  padding-right: .6em;
+}
+
+.form th, .form td, .phpc-form th, .phpc-form td {
+  border-style: none;
+}
+
+.phpc-date {
+  padding: 5px 3px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.phpc-date > a {
+  text-decoration: none;
+  margin: 0;
+}
+
+.phpc-shadow {
+  opacity: .5;
+  filter:Alpha(Opacity=5);
+}
+
+.phpc-color-wheel {
+  position: absolute;
+  z-index: 1;
+}
+
+.phpc-message {
+  padding: 4px;
+  margin: .5em 0;
+}
+
+.phpc-logged {
+  padding: 4px;
+  z-index: 1;
+  float: right;
+}
+
+.phpc-logged span {
+  font-weight: bold;
+  margin-left: 1em;
+}
+
+/* labels associated with checkboxes */
+.php-calendar label,
+.php-calendar input[type=submit],
+.php-calendar tfoot a {
+  font-size: .9em !important;
+}
+
+div.ui-datepicker, div.ui-timepicker {
+  font-size: .9em;
+}
+
+.php-calendar.ui-widget {
+  font-size: 1em;
+}
+
+.phpc-dropdown-list {
+  display: inline-block;
+}
+
+.phpc-dropdown-list ul {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  z-index: 99;
+}
+
+.phpc-dropdown-list li {
+  text-align: left;
+  font-size: medium;
+  font-weight: normal;
+  padding: 0.1em;
+}
+
+.phpc-dropdown-list {
+  margin: 0 .6em;
+  padding: 0;
+}
+
+.phpc-dropdown-list ul li a {
+  text-decoration: none;
+}
+
+.phpc-dropdown-list-title {
+  cursor: pointer;
+}
+
+.phpc-icon-link {
+  text-decoration: none;
+}
