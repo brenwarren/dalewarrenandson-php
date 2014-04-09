@@ -1,4 +1,8 @@
 <?php
+session_start();
+ob_start();
+ini_set('error_reporting', 0);
+include('../header.php');
 
 /*
  * Copyright 2012 Sean Proctor
