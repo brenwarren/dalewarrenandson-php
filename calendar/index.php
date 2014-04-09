@@ -3,7 +3,11 @@ session_start();
 ob_start();
 ini_set('error_reporting', 0);
 include('../header.php');
+?>
 
+<a class="btn btn-lg heating-bg-color" style="margin-top:10px; font-size: 1.2em;" href="http://dalewarrenandson.com/webmail" target="_blank">Open Webmail</a>
+
+<?php 
 /*
  * Copyright 2012 Sean Proctor
  *
