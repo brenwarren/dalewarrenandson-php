@@ -2,7 +2,7 @@
 <!-- Microdata markup added by Google Structured Data Markup Helper. -->
 
 <?php include('header.php'); ?>
-
+<div class="avoid-menubar"></div>
     <!--  START OF Main jumbotron header section -->
     
     <span itemscope itemtype="http://schema.org/LocalBusiness">
