@@ -60,14 +60,14 @@
                           <li class="dropdown hidden-xs">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                              <li><a href="#woodburners">Wood Burners</a></li>
-                              <li><a href="#heating">Heating</a></li>
-                              <li><a href="#plumbing">Plumbing</a></li>
+                              <li><a href="http://dalewarrenandson.com/index.php#woodburners">Wood Burners</a></li>
+                              <li><a href="http://dalewarrenandson.com/index.php#heating">Heating</a></li>
+                              <li><a href="http://dalewarrenandson.com/index.php#plumbing">Plumbing</a></li>
                             </ul>
                           </li>
-                          <li><a href="#about">About</a></li>
-                          <li><a href="#contact">Contact</a></li>
-                          <li><a href="http://www.dalewarrenandson.com/calendar/index.php?action=login">Staff</a></li>
+                          <li><a href="http://dalewarrenandson.com/index.php#about">About</a></li>
+                          <li><a href="http://dalewarrenandson.com/index.php#contact">Contact</a></li>
+                          <li><a href="http://dalewarrenandson.com/index.phpstaff.php">Staff</a></li>
                         </ul>
                       </div><!--/.navbar-collapse -->
                 </div>
@@ -80,9 +80,9 @@
                       </div>
                       
                         <div style="margin-bottom:5px; font-size: 1.1em">
-                          <a href="index.php">Home</a>
-                         <a href="#about" style="margin-left: 10px; margin-right:10px">About</a>
-                         <a href="#contact">Contact</a>
+                          <a href="http://dalewarrenandson.com/index.phpindex.php">Home</a>
+                         <a href="http://dalewarrenandson.com/index.php#about" style="margin-left: 10px; margin-right:10px">About</a>
+                         <a href="http://dalewarrenandson.com/index.php#contact">Contact</a>
                          <a style="margin-left:10px"href="http://www.dalewarrenandson.com/calendar/index.php?action=login">Staff</a>
                         </div>
                       

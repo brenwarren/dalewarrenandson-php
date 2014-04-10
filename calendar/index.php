@@ -1,12 +1,3 @@
-<?php
-session_start();
-ob_start();
-ini_set('error_reporting', 0);
-include('../header.php');
-?>
-
-<a class="btn btn-lg heating-bg-color" style="margin-top:30px; font-size: 1.2em;" href="http://dalewarrenandson.com/webmail" target="_blank">Open Webmail</a>
-
 <?php 
 /*
  * Copyright 2012 Sean Proctor
@@ -118,3 +109,4 @@ echo '<!DOCTYPE html>', "\n", $html->toString();
       <link rel="stylesheet" href="../css/main.css">
       <link href="../css/form-style.css" rel="stylesheet" type="text/css" />
 
+   <?php include('footer.php');?>

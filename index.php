@@ -1,7 +1,99 @@
 <!DOCTYPE html>
 <!-- Microdata markup added by Google Structured Data Markup Helper. -->
 
-<?php include('header.php'); ?>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js"> 
+<!--<![endif]-->
+    <head>
+      <meta name="msvalidate.01" content="4D0F94A9BFEFD5273982E6F19725EC50" />
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Plumber &amp; Heating Installers Newtown Powys Mid Wales</title>
+      <meta name="description" content="Registered Plumbers and Heating Installers. WOOD - GAS - OIL - BURNERS - FIRES. Installation &amp; Modifications.">
+      <meta name="viewport" content="width=device-width">
+
+      <link rel="stylesheet" href="css/bootstrap.css">
+
+      <link rel="stylesheet" href="css/bootstrap-theme.css">
+      <link rel="stylesheet" href="css/main.css">
+      <link href="css/form-style.css" rel="stylesheet" type="text/css" />
+
+
+      <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+      <script src="js/vendor/bootstrap.min.js"></script>
+      <script src="js/main.js"></script>
+       <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-49548859-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+      </script>
+    </head>
+
+  <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+     <header>  
+        <div class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container hidden-xs">
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="http://dalewarrenandson.com/index.php">Dale Warren &amp; Son Ltd</a>
+                      </div>
+                      <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                          
+                          <li class="active"><a href="#top">Top</a></li>
+                          <li class="dropdown hidden-xs">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                              <li><a href="#woodburners">Wood Burners</a></li>
+                              <li><a href="#heating">Heating</a></li>
+                              <li><a href="#plumbing">Plumbing</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#about">About</a></li>
+                          <li><a href="#contact">Contact</a></li>
+                          <li><a href="staff.php">Staff</a></li>
+                        </ul>
+                      </div><!--/.navbar-collapse -->
+                </div>
+
+
+                <div class="container visible-xs">
+                      <div class="navbar-header">
+                        
+                        <a class="navbar-brand" href="index.php">Dale Warren &amp; Son Ltd</a>
+                      </div>
+                      
+                        <div style="margin-bottom:5px; font-size: 1.1em">
+                          <a href="index.php">Home</a>
+                         <a href="#about" style="margin-left: 10px; margin-right:10px">About</a>
+                         <a href="#contact">Contact</a>
+                         <a style="margin-left:10px"href="http://www.dalewarrenandson.com/calendar/index.php?action=login">Staff</a>
+                        </div>
+                      
+                </div>
+
+
+        </div>
+    </header>  
 <div class="avoid-menubar"></div>
     <!--  START OF Main jumbotron header section -->
     
@@ -569,21 +661,9 @@
 <!-- END OF ABOUT US SECTION-->
 
 </span>  <!--  END OF THE GOOGLE GOOGLE MICRODATA MARKUP starts on line 8-->
-
-      <footer>
-        <p>&copy; Dale Warren &amp; Son LTD 2014</p>
-      </footer>
           
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-    <script>
-      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-      g.src='//www.google-analytics.com/ga.js';
-      s.parentNode.insertBefore(g,s)}(document,'script'));
-    </script>
-  </body>
-</html>
+    
+
+    <?php include('footer.php');?>
+
