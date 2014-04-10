@@ -1,6 +1,6 @@
  <!DOCTYPE html>
  
-	  <footer style="position: fixed; bottom:0px">
+	  <footer style="bottom:0px">
 	        <p>&copy; Dale Warren &amp; Son LTD 2014</p>
 	  </footer>
 
@@ -14,6 +14,6 @@
       g.src='//www.google-analytics.com/ga.js';
       s.parentNode.insertBefore(g,s)}(document,'script'));
     </script>
-    
+
 	 </body>
  </html>
