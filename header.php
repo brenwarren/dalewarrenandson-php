@@ -83,7 +83,7 @@
                           <a href="http://dalewarrenandson.com/index.phpindex.php">Home</a>
                          <a href="http://dalewarrenandson.com/index.php#about" style="margin-left: 10px; margin-right:10px">About</a>
                          <a href="http://dalewarrenandson.com/index.php#contact">Contact</a>
-                         <a style="margin-left:10px"href="http://www.dalewarrenandson.com/calendar/index.php?action=login">Staff</a>
+                         <a style="margin-left:10px"href="http://www.dalewarrenandson.com/staff.php">Staff</a>
                         </div>
                       
                 </div>

@@ -86,7 +86,7 @@
                           <a href="index.php">Home</a>
                          <a href="#about" style="margin-left: 10px; margin-right:10px">About</a>
                          <a href="#contact">Contact</a>
-                         <a style="margin-left:10px"href="http://www.dalewarrenandson.com/calendar/index.php?action=login">Staff</a>
+                         <a style="margin-left:10px"href="http://www.dalewarrenandson.com/staff.php">Staff</a>
                         </div>
                       
                 </div>
