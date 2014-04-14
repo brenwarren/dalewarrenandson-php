@@ -54,12 +54,12 @@
                           <span class="icon-bar"></span>
                           <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="http://dalewarrenandson.com/index.php">Dale Warren &amp; Son Ltd</a>
+                        <a class="navbar-brand" href="#">Dale Warren &amp; Son Ltd</a>
                       </div>
                       <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
                           
-                          <li class="active"><a href="#top">Top</a></li>
+                          <li class="active"><a href="#">Top</a></li>
                           <li class="dropdown hidden-xs">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<b class="caret"></b></a>
                             <ul class="dropdown-menu">
@@ -83,7 +83,7 @@
                       </div>
                       
                         <div style="margin-bottom:5px; font-size: 1.1em">
-                          <a href="index.php">Home</a>
+                          <a href="#">Home</a>
                          <a href="#about" style="margin-left: 10px; margin-right:10px">About</a>
                          <a href="#contact">Contact</a>
                          <a style="margin-left:10px"href="http://www.dalewarrenandson.com/staff.php">Staff</a>
@@ -662,8 +662,6 @@
 
 </span>  <!--  END OF THE GOOGLE GOOGLE MICRODATA MARKUP starts on line 8-->
           
-
-    
 
     <?php include('footer.php');?>
 

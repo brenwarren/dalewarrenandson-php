@@ -1,4 +1,9 @@
 <?php 
+session_start();
+ob_start();
+
+include('../header.php'); 
+
 /*
  * Copyright 2012 Sean Proctor
  *
@@ -109,4 +114,4 @@ echo '<!DOCTYPE html>', "\n", $html->toString();
       <link rel="stylesheet" href="../css/main.css">
       <link href="../css/form-style.css" rel="stylesheet" type="text/css" />
 
-   <?php include('footer.php');?>
+<?php include('../footer.php');?>

@@ -2,9 +2,25 @@
 session_start();
 ob_start();
 ini_set('error_reporting', 0);
-include('header.php');
 ?>
 
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js"> 
+<!--<![endif]-->
+    <head>
+      <meta name="msvalidate.01" content="4D0F94A9BFEFD5273982E6F19725EC50" />
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Plumbing &amp; Heating Services Newtown Powys Mid Wales</title>
+      <meta name="description" content="Registered Plumbing and Heating Services. WOOD - GAS - OIL - BURNERS - FIRES. Installation &amp; Modifications.">
+      <meta name="viewport" content="width=device-width">
+
+
+<?php include('header.php');?>
 
 <!--  FOR THIS FORM TO WORK YOU JUST NEED :
 - THE IMAGES FOLDER WITH THE 2 FILES AHGBold.ttf and monofont.ttf
@@ -150,3 +166,5 @@ function vpb_refresh_aptcha()
 </div>
 </div> <!-- form-wrapper div end. This encloses whole form-->
 <!-- Code Ends Here -->
+
+<?php include('footer.php');?>
