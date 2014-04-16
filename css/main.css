@@ -9,9 +9,13 @@
     padding-top: 50px;
     padding-bottom: 20px;
     color: #34495e; 
-    background-color: #e8e8e8;
+    /*background-color: #e8e8e8; */
+    background-image: 
     width: 100%;
+     background-image: url('../inc/img/radiator-thermostat.jpg');
+    background-size: cover;
 }
+
 
 
 h2.section-heading {

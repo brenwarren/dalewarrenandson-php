@@ -1,14 +1,14 @@
-      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="/dalewarrenandson-php/css/bootstrap.css">
 
-      <link rel="stylesheet" href="css/bootstrap-theme.css">
-      <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="/dalewarrenandson-php/css/bootstrap-theme.css">
+      <link rel="stylesheet" href="/dalewarrenandson-php/css/main.css">
       <link href="css/form-style.css" rel="stylesheet" type="text/css" />
 
 
-      <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-      <script src="js/vendor/bootstrap.min.js"></script>
-      <script src="js/main.js"></script>
-       <script type="text/javascript">
+      <script src="/dalewarrenandson-php/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+      <script src="/dalewarrenandson-php/js/vendor/bootstrap.min.js"></script>
+      <script src="/dalewarrenandson-php/js/main.js"></script>
+       <script type="/dalewarrenandson-php/text/javascript">
 
           var _gaq = _gaq || [];
           _gaq.push(['_setAccount', 'UA-49548859-1']);
@@ -36,7 +36,7 @@
                           <span class="icon-bar"></span>
                           <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="http://dalewarrenandson.com/">Dale Warren &amp; Son Ltd</a>
+                        <a class="navbar-brand" href="/dalewarrenandson-php/index.php">Dale Warren &amp; Son Ltd</a>
                       </div>
                       <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
@@ -45,14 +45,14 @@
                           <li class="dropdown hidden-xs">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                              <li><a href="http://dalewarrenandson.com/index.php#woodburners">Wood Burners</a></li>
-                              <li><a href="http://dalewarrenandson.com/index.php#heating">Heating</a></li>
-                              <li><a href="http://dalewarrenandson.com/index.php#plumbing">Plumbing</a></li>
+                              <li><a href="/dalewarrenandson-php/index.php#woodburners">Wood Burners</a></li>
+                              <li><a href="/dalewarrenandson-php/index.php#heating">Heating</a></li>
+                              <li><a href="/dalewarrenandson-php/index.php#plumbing">Plumbing</a></li>
                             </ul>
                           </li>
-                          <li><a href="http://dalewarrenandson.com/index.php#about">About</a></li>
-                          <li><a href="http://dalewarrenandson.com/index.php#contact">Contact</a></li>
-                          <li><a href="http://dalewarrenandson.com/staff.php">Staff</a></li>
+                          <li><a href="/dalewarrenandson-php/index.php#about">About</a></li>
+                          <li><a href="/dalewarrenandson-php/index.php#contact">Contact</a></li>
+                          <li><a href="/dalewarrenandson-php/staff.php">Staff</a></li>
                         </ul>
                       </div><!--/.navbar-collapse -->
                 </div>
@@ -66,9 +66,9 @@
                       
                         <div style="margin-bottom:5px; font-size: 1.1em">
                           <a href="#">Home</a>
-                         <a href="http://dalewarrenandson.com/index.php#about" style="margin-left: 10px; margin-right:10px">About</a>
-                         <a href="http://dalewarrenandson.com/index.php#contact">Contact</a>
-                         <a style="margin-left:10px"href="http://www.dalewarrenandson.com/staff.php">Staff</a>
+                         <a href="/dalewarrenandson-php/index.php#about" style="margin-left: 10px; margin-right:10px">About</a>
+                         <a href="/dalewarrenandson-php/index.php#contact">Contact</a>
+                         <a style="margin-left:10px"href="/dalewarrenandson-php/staff.php">Staff</a>
                         </div>
                       
                 </div>
