@@ -45,13 +45,13 @@
                           <li class="dropdown hidden-xs">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                              <li><a href="/dalewarrenandson-php/index.php#woodburners">Wood Burners</a></li>
-                              <li><a href="/dalewarrenandson-php/index.php#heating">Heating</a></li>
-                              <li><a href="/dalewarrenandson-php/index.php#plumbing">Plumbing</a></li>
+                              <li><a href="wood-burner-services.php">Wood Burners</a></li>
+                              <li><a href="heating-services.php">Heating</a></li>
+                              <li><a href="plumbing-services.php">Plumbing</a></li>
                             </ul>
                           </li>
                           <li><a href="/dalewarrenandson-php/index.php#about">About</a></li>
-                          <li><a href="/dalewarrenandson-php/index.php#contact">Contact</a></li>
+                          <li><a href="contact.php">Contact</a></li>
                           <li><a href="/dalewarrenandson-php/staff.php">Staff</a></li>
                         </ul>
                       </div><!--/.navbar-collapse -->

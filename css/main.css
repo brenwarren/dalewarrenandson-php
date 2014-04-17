@@ -221,7 +221,7 @@ border-radius: 5px 0 0 5px;
 
 
 .left-container-services {
-  height: 400px;
+  height: 700px;
   width: 170px;
   float: left;
   padding: 30px 10px;
@@ -306,7 +306,7 @@ border-radius: 5px 0 0 5px;
     .right-container-services {
       padding-right: 0px;
       padding-top: 0px;
-       height: 400px;
+       height: 700px;
        margin-bottom: 20px;
 
     }
