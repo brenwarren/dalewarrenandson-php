@@ -52,22 +52,7 @@ include('header.php');
 
 
            <!-- Service buttons - start -->
-           <div style="" class="container-fluid">
-
-              <!--   <span class="glyphicon glyphicon-fire glyphicon-lg">
-                  </span>  -->
-                  <a class="btn btn-lg woodburner-bg-color btn-woodburner" style="" href="#woodburners" >Wood Burners</a>
-                
-              <!--    <span class="glyphicon glyphicon-certificate glyphicon-lg">
-                  </span>  -->
-                  
-                  <a class="btn btn-lg heating-bg-color btn-heating" style="" href="#heating">Heating</a>
-                   <!--   <span class="glyphicon glyphicon-tint glyphicon-lg">
-                  </span>   -->
-                  
-                  <a class="btn btn-lg plumbing-bg-color btn-plumbing" style="" href="#plumbing">Plumbing</a>
            
-          </div>
 
 <!--
           <div class="container-fluid " style="margin-top: 20px">
@@ -115,141 +100,27 @@ include('header.php');
       <!-- START OF Services section -->
 
        <h2 class="section-heading" style="text-align: center">Services</h2>
+
+       <div style="" class="service-buttons">
+
+              <!--   <span class="glyphicon glyphicon-fire glyphicon-lg">
+                  </span>  -->
+                  <a class="btn btn-lg woodburner-bg-color btn-woodburner" style="" href="#woodburners" >Wood Burners</a>
+                
+              <!--    <span class="glyphicon glyphicon-certificate glyphicon-lg">
+                  </span>  -->
+                  
+                  <a class="btn btn-lg heating-bg-color btn-heating" style="" href="#heating">Heating</a>
+                   <!--   <span class="glyphicon glyphicon-tint glyphicon-lg">
+                  </span>   -->
+                  
+                  <a class="btn btn-lg plumbing-bg-color btn-plumbing" style="" href="#plumbing">Plumbing</a>
+           
+          </div>
         
         
                       
-        
-         
-                     
-          
-
-
-
-
-
-
-
-
-         <!--  START OF PLUMBING SECTION  
-         
-                      <div class="left-container-services plumbing-bg-color" style="">
-                        <h3>Plumbing</h3>
-                        <span class="col-xs-1 glyphicon glyphicon-tint info-box-icon"></span>
-                      </div> 
-
-                   <div class="right-container-services plumbing-right-container" style="margin-bottom: 0">
-
-                          <h3 class="visible-xs service-box-header-xs plumbing-bg-color" style="">Plumbing</h3>
-        
-                          <div class="services-text-box">
-
-                              <div id="plumbing">
-                                <h4 class="avoid-menubar" style="text-indent: 1em; color: #7f8c8d">Domestic Plumbing</h4>
-                              </div>
-
-                              <h4><small>General:</small></h4>
-                              <ul>
-                                <li>Installation of hot and cold water systems</li>
-                                <li>Hot water cylinders (vented and un-vented)</li>
-                                <li>Water filters, pumps, taps, toilets, baths, showers, sinks, wet rooms,washing machines,</li>
-                                <li>dishwashers, pressure sets, water tanks, ball valves, pipe work</li>
-                                <li>Installation repair and maintenance of all of the above.</li>
-                              </ul>
-                              <h4><small>Boilers:</small></h4>
-                              <ul>
-                                <li>Gas and oil boiler:  Installation, commissioning, servicing and repair</li>
-                              </ul>
-                              <h4><small>Bathrooms:</small></h4>
-                              <ul>
-                                <li>Full installation of bathrooms:  Including tiling, wet rooms and power showers</li>
-                              </ul>
-
-                              <h4 style="text-indent: 1em; color: #7f8c8d">Commercial Plumbing</h4>
-
-                              <ul>
-                                <li>Installation of black iron pipe work</li>
-                                <li>Instalation and maintance of plant and boiler rooms</li>
-                                <li>Biomass</li>
-                              </ul>
-
-                              <button id="plumbing-popover" type="button" style="margin-top: 20px" class="btn btn-more-services" data-container="" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Please contact us to ask if you need help with something not listed, but you feel is related. We'll let you know quickly whether we can offer the service you need or not.">
-                              <span class="btn-bullet-1" style="color: #C2B49A">•</span>More services
-                              </button>
-
-                          </div> 
-                   
-                    </div>  
-                   END OF PLUMBING SECTION -->
-          
-    </div>  
-
-    <!-- END OF SERVICES SECTION -->
-
-      <hr>
-
-      <!-- CONTACT US SECTION - START  -->
-    
-      <h2 id="contact" class="section-heading avoid-menubar" style="text-align: center">Contact Us</h2>
-    
-    <div class="service-container">
-              
-              <div class="left-container-services contact-bg-color" style="height: 300px">
-                
-                  <h3 class="">Contact Details</h3>
-              
-                <span class="col-xs-1 glyphicon glyphicon-earphone info-box-icon"></span>
-                
-              </div> 
-
-                  <div class="right-container-services contact-right-container" style="margin-bottom:0">
-                
-                        <h3 class="visible-xs service-box-header-xs contact-bg-color ">Contact Details</h3>
-                        
-                            <div class="services-text-box" style="padding-left: 0px">
-                                
-                                 <div >
-                                    <span class="glyphicon glyphicon-earphone big-icon" style="float: left"></span>
-
-                                    <div itemprop="telephone" class="contact-text" style="">
-                                      <a class="" href="tel:01686688600">01686 688600</a> • <a class="" href="tel:07931875436">07931 875436</a> • <a class="" href="tel:07980840041">07980 840041</a>
-                                    </div>
-                                  </div>
-
-                                  <div class="web-message">
-                                    <span class="glyphicon glyphicon-comment big-icon" style="float: left"></span>
-
-                                    <div class="contact-text" style="margin-top: 30px">
-                                      <p><a href="form.php" target="_blank">Send us a message directly from our website!</a></p>
-                                    </div>
-                                  </div>
-
-                                  <div>
-                                    <span class="glyphicon glyphicon-envelope big-icon" style="float: left"></span>
-
-                                    <div class="contact-text" style="margin-top: 30px">
-                                      <p><a href="mailto:info@dalewarrenandson.com?Subject=Enquiry&nbsp;regarding&#58;" target="_top">Send us an Email</a></p>
-                                    </div>
-                                  </div>
-                              
-                               
-                            
-
-                            </div>
-                   
-                    </div> 
-        </div>                
-
-
-    <!-- END OF CONTACT US SECTION-->
-
-
-    <!-- START OF ABOUT US SECTION-->
-  
-<h2 id="about" class="section-heading avoid-menubar" style="text-align: center">About Us</h2>
-
-
-
-    <div class="service-container">
+          <div class="service-container">
 
 
 <!-- START OF SERVICE AREA AND SAFETY  & QUALITY  BOXES CONTAINER  --> 
@@ -399,6 +270,75 @@ include('header.php');
          
 
       </div>
+         
+                     
+          
+
+
+
+
+
+
+
+
+         <!--  START OF PLUMBING SECTION  
+         
+                      <div class="left-container-services plumbing-bg-color" style="">
+                        <h3>Plumbing</h3>
+                        <span class="col-xs-1 glyphicon glyphicon-tint info-box-icon"></span>
+                      </div> 
+
+                   <div class="right-container-services plumbing-right-container" style="margin-bottom: 0">
+
+                          <h3 class="visible-xs service-box-header-xs plumbing-bg-color" style="">Plumbing</h3>
+        
+                          <div class="services-text-box">
+
+                              <div id="plumbing">
+                                <h4 class="avoid-menubar" style="text-indent: 1em; color: #7f8c8d">Domestic Plumbing</h4>
+                              </div>
+
+                              <h4><small>General:</small></h4>
+                              <ul>
+                                <li>Installation of hot and cold water systems</li>
+                                <li>Hot water cylinders (vented and un-vented)</li>
+                                <li>Water filters, pumps, taps, toilets, baths, showers, sinks, wet rooms,washing machines,</li>
+                                <li>dishwashers, pressure sets, water tanks, ball valves, pipe work</li>
+                                <li>Installation repair and maintenance of all of the above.</li>
+                              </ul>
+                              <h4><small>Boilers:</small></h4>
+                              <ul>
+                                <li>Gas and oil boiler:  Installation, commissioning, servicing and repair</li>
+                              </ul>
+                              <h4><small>Bathrooms:</small></h4>
+                              <ul>
+                                <li>Full installation of bathrooms:  Including tiling, wet rooms and power showers</li>
+                              </ul>
+
+                              <h4 style="text-indent: 1em; color: #7f8c8d">Commercial Plumbing</h4>
+
+                              <ul>
+                                <li>Installation of black iron pipe work</li>
+                                <li>Instalation and maintance of plant and boiler rooms</li>
+                                <li>Biomass</li>
+                              </ul>
+
+                              <button id="plumbing-popover" type="button" style="margin-top: 20px" class="btn btn-more-services" data-container="" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Please contact us to ask if you need help with something not listed, but you feel is related. We'll let you know quickly whether we can offer the service you need or not.">
+                              <span class="btn-bullet-1" style="color: #C2B49A">•</span>More services
+                              </button>
+
+                          </div> 
+                   
+                    </div>  
+                   END OF PLUMBING SECTION -->
+          
+    </div>  
+
+    <!-- END OF SERVICES SECTION -->
+
+      <hr>
+
+
 
         <!-- END OF SERVICE AREA AND SAFETY  & QUALITY  BOXES CONTAINER  --> 
 
