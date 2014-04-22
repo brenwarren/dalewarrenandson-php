@@ -12,9 +12,8 @@
       <meta name="msvalidate.01" content="4D0F94A9BFEFD5273982E6F19725EC50" />
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Wood Burner and Wood Fire services in Newtown, Powys, Mid Wales | Sourcing, installing and repairs.</title>
-      <meta name="description" content="Wood fires and burners - Sourcing, installing and repairing. Brick and steel chimney building and repair. Building fire places, surrounds and hearths.
-      Connecting wood burners to heating systems.">
+      <title>About Dale Warren & Son</title>
+      <meta name="description" content="Information and history with regards the company Dale Warren and Son Ltd">
       <meta name="viewport" content="width=device-width">
 
 <?php
@@ -76,54 +75,32 @@ include('header.php');
         </div>
     </header>  
 
-
 <div class="avoid-menubar"></div>
 
+<h2 class="section-heading" style="text-align: center">More about Dale Warren and Son</h2>
 
+<div class="left-container-services contact-bg-color" style="height: 300px">
+                
+                  <h3>Who Are We?</h3>
+              
+                <span class="col-xs-1 glyphicon glyphicon-info-sign info-box-icon"></span>
+                
+              </div> 
 
-                 <!--   <div class="service-info-box" style="margin-bottom: 20px">  -->
-
-                 		 <h2 class="section-heading" style="text-align: center">Wood Burners and Wood Fires</h2>
-
-                        <div class="left-container-services woodburner-bg-color" style="">
-                          
-                            <h3>Wood Burners</h3>
-                        
-                          <span class="col-xs-1 glyphicon glyphicon-fire info-box-icon"></span>
-                          
-                        </div> 
-
-                            <div class="right-container-services woodburner-right-container">
-                          
-                                  <h3 class="visible-xs service-box-header-xs woodburner-bg-color ">Wood Burners</h3>
-                                  
-                                      <div class="services-text-box">
-
-                                          <div class="well service-well">
-                                             
-                                                  <h4 id="woodburners" class="avoid-menubar" style="text-indent: 1em; color: #7f8c8d">Wood Fires and Burners</h4>
-                                              
-                                              <ul>
-                                                <li>Sourcing and installing</li>  
-                                                <li>Flue liner installation</li>
-                                                <li>Chimney stack - building and repair</li>
-                                                <li>Stainless steel chimney - Installation of twin wall chimneys</li>
-                                                <li>Building of fire places, fire surrounds and hearths</li>
-                                                <li>Connecting your wood burner to heat the house and your hot water</li>
-                                                <li>Maintenance and upgrades</li>
-                                              </ul>
-
-                                           </div>
-                                      </div>
-                                            <button id="woodburners-popover" type="button" style="margin-top: 20px" class="btn btn-more-services" data-container="" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Please contact us to ask if you need help with something not listed, but you feel is related. We'll let you know quickly whether we can offer the service you need or not.">
-                                             
-                                            <span class="btn-bullet-1" style="color: #FFB46C">•</span>More on Woodburners
-                                            </button>
-
+                  <div class="right-container-services contact-right-container" style="margin-bottom:0">
+                      
+                        <h3 class="visible-xs service-box-header-xs contact-bg-color ">Who Are We?</h3>
+                       
+                            <div class="services-text-box" style="padding-left: 0px">
+                           
+                                    <div class="about-text" style="">
                                       
-                             
-                              </div> 
+                                      <p>Dale Warren Plumbing was established just over 25 years ago by Dale when his son, Graham, was only 10 years old. Twenty five years later and with many years experience and qualification, Graham became the “and Son” part of the business. The well known honesty and quality of work which ensured that Dale’s customers never used other plumbers again, is still the same today in its new and bigger form – Dale Warren and Son Ltd.</p>
 
+                                    </div>
 
+                            </div>
+                   
+                  </div> 
 
 <?php include('footer.php');?>
