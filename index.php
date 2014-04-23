@@ -22,63 +22,7 @@ include('header.php');
 ?>
 
 
-<body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
 
-<header>  
-        <div class="navbar navbar-inverse navbar-fixed-top">
-                <div class="container hidden-xs">
-                      <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="index.php">Dale Warren &amp; Son Ltd</a>
-                      </div>
-                      <div class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                          
-                          <li class="active"><a href="#">Home</a></li>
-                          <li class="dropdown hidden-xs">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                              <li><a href="wood-burner-services.php">Wood Burners</a></li>
-                              <li><a href="heating-services.php">Heating</a></li>
-                              <li><a href="plumbing-services.php">Plumbing</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="about.php">About</a></li>
-                          <li><a href="contact-and-location.php">Contact</a></li>
-                          <li><a href="staff.php">Staff</a></li>
-                        </ul>
-                      </div><!--/.navbar-collapse -->
-                </div>
-
-
-                <div class="container visible-xs">
-                      <div class="navbar-header">
-                        
-                        <a class="navbar-brand" href="http://dalewarrenandson.com">Dale Warren &amp; Son Ltd</a>
-                      </div>
-                      
-                        <div style="margin-bottom:5px; font-size: 1.1em">
-                          <a href="http://dalewarrenandson.com">Home</a>
-                         <a href="about.php" style="margin-left: 10px; margin-right:10px">About</a>
-                         <a href="contact-and-location.php">Contact</a>
-                         <a style="margin-left:10px"href="staff.php">Staff</a>
-                        </div>
-                      
-                </div>
-
-
-        </div>
-    </header>  
-
-
-<div class="avoid-menubar"></div>
     <!--  START OF Main jumbotron header section -->
     
     <span itemscope itemtype="http://schema.org/LocalBusiness">
@@ -90,10 +34,10 @@ include('header.php');
         <h1 class="tagline top-tagline" style="">Plumbing &amp; Heating Services in Powys</h1>
     </span>   
         <div class="tagline-box">
-              <h2 class="tagline" style="font-size: 1em; font-weight: 200; color: #7f8c8d">
+              <h2 class="tagline" style="font-size: 0.9em; font-weight: 200; color: #7f8c8d">
                 Domestic &amp; Commercial Plumbing &amp; Heating Services in Mid Wales<br><br>
               Specialists in Burners (Wood • Gas • Oil • Coal) • Fires • Solar heating • Biomass</h2>
-            <h2 style="font-size: 1em; font-weight: 200; color: #7f8c8d">
+            <h2 style="font-size: 0.8em; font-weight: 200; color: #7f8c8d">
               Gas Safe • HETAS • OFTEC Approved
             </h2>
           
@@ -133,9 +77,9 @@ data-stream="false" data-show-border="true"></div>
 
       <!-- START OF Services section -->
 
-       <h2 class="section-heading" style="font-size:1.5em; text-align:center; margin-bottom:30px">
+       <h2 class="section-heading" style="color: #A3C737; font-size:1.4em; text-align:center; margin-bottom:30px">
         Looking for a good quality plumber or heating specialist you can depend on?</h2>
-        <h2 class="section-heading" style="color: #A3C737; font-size:1.5em; text-align:center; margin-bottom:30px">
+        <h2 class="section-heading" style="font-size:1.4em; text-align:center; margin-bottom:30px">
           Dale Warren and Son has provided reliable, high quality plumbing and heating services for over 25 years!</h2>
 
        <div style="" class="service-buttons">
